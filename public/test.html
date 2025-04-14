@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Obrázku</title>
+    <style>
+        img { max-width: 100%; height: auto; border: 1px solid red; }
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Test obrázku</h1>
+    <p>Pokud vidíte obrázek níže, je vše v pořádku. Pokud ne, zobrazí se chybová zpráva.</p>
+    
+    <div id="imageContainer">
+        <img src="/hero.jpg" alt="Hero Image Test" id="testImage">
+    </div>
+    
+    <div id="errorMessage" class="error" style="display: none;">
+        Obrázek se nepodařilo načíst. Chyba: <span id="errorDetails"></span>
+    </div>
+
+    <script>
+        const img = document.getElementById('testImage');
+        const errorMessage = document.getElementById('errorMessage');
+        const errorDetails = document.getElementById('errorDetails');
+        
+        img.onerror = function(e) {
+            console.error("Chyba načítání obrázku:", e);
+            errorMessage.style.display = 'block';
+            errorDetails.textContent = "Obrázek nebyl nalezen nebo není přístupný.";
+        };
+        
+        img.onload = function() {
+            console.log("Obrázek byl úspěšně načten", {
+                width: img.naturalWidth,
+                height: img.naturalHeight
+            });
+        };
+    </script>
+</body>
+</html> 
