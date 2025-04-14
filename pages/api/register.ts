@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import sgMail from '@sendgrid/mail';
+import { sendRegistrationEmail, formatRegistrationEmail } from '../../lib/EmailService';
+import { Player } from '../../types/player';
 
 // Rozhraní pro odpověď
 type ResponseData = {
@@ -12,33 +13,55 @@ interface FormData {
   teamName: string;
   email: string;
   phone: string;
+  contactName: string;
   players: {
     name: string;
-    age: string;
+    birthYear: string;
   }[];
   agreement: boolean;
 }
 
-// Funkce pro vytvoření těla e-mailu
-const createEmailBody = (data: FormData): string => {
+// Funkce pro vytvoření HTML těla e-mailu pro administrátora
+const createAdminEmailBody = (data: FormData): string => {
   const playersInfo = data.players
     .filter(player => player.name.trim() !== '')
-    .map((player, index) => `Hráč ${index + 1}: ${player.name}${player.age ? `, ${player.age} let` : ''}`)
-    .join('\n');
+    .map((player, index) => `
+      <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">${index + 1}</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">${player.name}</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">${player.birthYear || 'Neuvedeno'}</td>
+      </tr>
+    `)
+    .join('');
 
   return `
-Nová registrace týmu do turnaje Street Cup 2025
-
-=== Informace o týmu ===
-Název týmu: ${data.teamName}
-E-mail: ${data.email}
-Telefon: ${data.phone || 'Neuvedeno'}
-
-=== Seznam hráčů ===
-${playersInfo}
-
-Souhlas s podmínkami: Ano
-`;
+    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+      <h2 style="color: #e74c3c;">Nová registrace týmu: ${data.teamName}</h2>
+      
+      <h3 style="color: #3498db;">Informace o týmu:</h3>
+      <ul>
+        <li><strong>Název týmu:</strong> ${data.teamName}</li>
+        <li><strong>Kontaktní osoba:</strong> ${data.contactName || 'Neuvedeno'}</li>
+        <li><strong>E-mail:</strong> ${data.email}</li>
+        <li><strong>Telefon:</strong> ${data.phone || 'Neuvedeno'}</li>
+        <li><strong>Souhlas s podmínkami:</strong> Ano</li>
+      </ul>
+      
+      <h3 style="color: #3498db;">Seznam hráčů:</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+        <thead>
+          <tr style="background-color: #f2f2f2;">
+            <th style="padding: 8px; border: 1px solid #ddd;">Č.</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">Jméno</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">Rok narození</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${playersInfo}
+        </tbody>
+      </table>
+    </div>
+  `;
 };
 
 export default async function handler(
@@ -64,42 +87,41 @@ export default async function handler(
       return res.status(400).json({ success: false, message: 'Tým musí mít alespoň 3 hráče' });
     }
 
-    // Nastavení SendGrid API klíče
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY || '');
+    // E-mail pro administrátora
+    const adminEmailSubject = `Nová registrace týmu: ${formData.teamName}`;
+    const adminEmailBody = createAdminEmailBody(formData);
+    const adminEmail = process.env.ADMIN_EMAIL || 'admin@streetcup2025.cz';
 
-    // Nastavení e-mailu pro administrátora
-    const adminMailOptions = {
-      to: process.env.ADMIN_EMAIL || 'admin@streetcup2025.cz',
-      from: process.env.EMAIL_FROM || 'info@streetcup2025.cz', // Ověřený odesílatel v SendGrid
-      subject: `Nová registrace týmu: ${formData.teamName}`,
-      text: createEmailBody(formData),
+    // Připravíme data pro potvrzovací e-mail pro tým
+    const teamInfo = {
+      name: formData.teamName,
+      contact: {
+        email: formData.email,
+        phone: formData.phone || 'Neuvedeno',
+        name: formData.contactName || formData.teamName,
+      },
+      players: formData.players
+        .filter(player => player.name.trim() !== '')
+        .map(player => ({
+          name: player.name,
+          birthYear: player.birthYear ? parseInt(player.birthYear, 10) || 0 : 0,
+        })) as Player[],
     };
 
-    // Nastavení potvrzovacího e-mailu pro registrovaný tým
-    const teamMailOptions = {
-      to: formData.email,
-      from: process.env.EMAIL_FROM || 'info@streetcup2025.cz', // Ověřený odesílatel v SendGrid
-      subject: 'Potvrzení registrace do turnaje Street Cup 2025',
-      text: `
-Děkujeme za registraci vašeho týmu ${formData.teamName} do turnaje Street Cup 2025!
+    // Připravíme tělo e-mailu pro tým pomocí naší šablony
+    const teamEmailSubject = 'Potvrzení registrace do turnaje Street Cup 2025';
+    const teamEmailBody = formatRegistrationEmail(teamInfo);
 
-Toto je automatické potvrzení vaší registrace. Brzy vás budeme kontaktovat s dalšími informacemi o turnaji a platbě startovného.
-
-S pozdravem,
-Organizační tým Street Cup 2025
-`,
-    };
-
-    // Odeslání e-mailů
+    // Odeslání e-mailů pomocí Resend
     // V produkčním prostředí odkomentujte následující řádky
     /*
-    await sgMail.send(adminMailOptions);
-    await sgMail.send(teamMailOptions);
+    await sendRegistrationEmail(adminEmail, '', adminEmailSubject, adminEmailBody);
+    await sendRegistrationEmail(formData.email, '', teamEmailSubject, teamEmailBody);
     */
     
     // Pro ukázku pouze vypisujeme do konzole
-    console.log('Admin email content:', adminMailOptions);
-    console.log('Team confirmation email:', teamMailOptions);
+    console.log('Admin email content:', { to: adminEmail, subject: adminEmailSubject });
+    console.log('Team confirmation email:', { to: formData.email, subject: teamEmailSubject });
 
     return res.status(200).json({ success: true, message: 'Registrace byla úspěšně dokončena' });
   } catch (error) {

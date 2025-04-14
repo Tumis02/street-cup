@@ -1,4 +1,5 @@
 import { Player } from '../types/player';
+import emailjs from '@emailjs/browser';
 
 interface TeamInfo {
   name: string;
@@ -10,55 +11,53 @@ interface TeamInfo {
   players: Player[];
 }
 
-// Deklarace typu pro SmtpJS
-declare const Email: {
-  send: (options: {
-    SecureToken: string | undefined;
-    To: string;
-    Bcc: string;
-    From: string;
-    Subject: string;
-    Body: string;
-  }) => Promise<unknown>;
-};
+/**
+ * Inicializuje EmailJS službu - toto je potřeba volat na startu aplikace
+ */
+export function initEmailService() {
+  if (typeof window !== 'undefined') {
+    // ID veřejného klíče z EmailJS účtu
+    emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '');
+  }
+}
 
 /**
- * Odešle registrační e-mail pomocí smtpjs.com bez nutnosti registrace u externích poskytovatelů
+ * Odešle registrační e-mail pomocí služby EmailJS - čistý JavaScript
+ * Dokumentace: https://www.emailjs.com/docs/
  */
-export async function sendRegistrationEmail(to: string, bcc: string, subject: string, body: string): Promise<boolean> {
-  // Nahrání smtpjs skriptu, pokud ještě není dostupný
-  if (typeof Email === 'undefined') {
-    await loadSmtpJs();
-  }
-
+export async function sendRegistrationEmail(
+  to: string, 
+  bcc: string, 
+  subject: string, 
+  body: string,
+  teamName: string,
+  players: Player[]
+): Promise<boolean> {
   try {
-    await Email.send({
-      SecureToken: process.env.NEXT_PUBLIC_SMTP_SECURE_TOKEN, // Token z smtpjs.com
-      To: to,
-      Bcc: bcc,
-      From: 'info@streetcup2025.cz', // E-mail odesílatele
-      Subject: subject,
-      Body: body
-    });
+    // Odeslání emailu pomocí EmailJS
+    await emailjs.send(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '', // ID služby z EmailJS
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '', // ID šablony z EmailJS
+      {
+        to_email: to,
+        bcc_email: bcc,
+        subject: subject,
+        message_html: body,
+        from_name: 'Street Cup 2025',
+        reply_to: 'info@streetcup2025.cz',
+        team_name: teamName,
+        player_1: players[0].name,
+        player_2: players[1].name,
+        player_3: players[2].name,
+        player_4: players.length > 3 ? players[3].name : '',
+      }
+    );
+    
     return true;
   } catch (error) {
     console.error('Chyba při odesílání e-mailu:', error);
     return false;
   }
-}
-
-/**
- * Dynamicky nahraje smtpjs skript
- */
-async function loadSmtpJs(): Promise<void> {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = 'https://smtpjs.com/v3/smtp.js';
-    script.async = true;
-    script.onload = () => resolve();
-    script.onerror = () => reject(new Error('Nepodařilo se načíst SMTP.js'));
-    document.head.appendChild(script);
-  });
 }
 
 // Formátování e-mailu pro potvrzení registrace

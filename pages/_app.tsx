@@ -1,9 +1,15 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import React from 'react'
+import React, { useEffect } from 'react'
+import { initEmailService } from '../lib/EmailService'
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    // Inicializace EmailJS při načtení aplikace
+    initEmailService();
+  }, []);
+
   return (
     <>
       <Head>

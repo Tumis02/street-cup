@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { sendRegistrationEmail } from './EmailService';
+import { sendRegistrationEmail, formatRegistrationEmail } from '../lib/EmailService';
 
 interface FormData {
   teamName: string;
   email: string;
   phone: string;
+  contactName: string;
   players: {
     name: string;
-    age: string;
+    birthYear: string;
   }[];
   agreement: boolean;
 }
@@ -17,11 +18,12 @@ const RegistrationSection: React.FC = () => {
     teamName: '',
     email: '',
     phone: '',
+    contactName: '',
     players: [
-      { name: '', age: '' },
-      { name: '', age: '' },
-      { name: '', age: '' },
-      { name: '', age: '' }
+      { name: '', birthYear: '' },
+      { name: '', birthYear: '' },
+      { name: '', birthYear: '' },
+      { name: '', birthYear: '' }
     ],
     agreement: false
   });
@@ -63,7 +65,7 @@ const RegistrationSection: React.FC = () => {
       .map((player, index) => `
         <tr>
           <td><strong>Hráč ${index + 1}:</strong></td>
-          <td>${player.name}${player.age ? `, ${player.age} let` : ''}</td>
+          <td>${player.name}${player.birthYear ? `, ${player.birthYear}` : ''}</td>
         </tr>
       `)
       .join('');
@@ -113,15 +115,50 @@ const RegistrationSection: React.FC = () => {
         throw new Error('Tým musí mít alespoň 3 hráče');
       }
 
-      // Vytvoření obsahu e-mailu
-      const emailContent = createEmailBody(formData);
+      // Vytvoříme data pro potvrzovací e-mail
+      const teamInfo = {
+        name: formData.teamName,
+        contact: {
+          email: formData.email,
+          phone: formData.phone || 'Neuvedeno',
+          name: formData.contactName || formData.teamName,
+        },
+        players: formData.players
+          .filter(player => player.name.trim() !== '')
+          .map(player => ({
+            name: player.name,
+            birthYear: player.birthYear ? parseInt(player.birthYear, 10) : 0,
+          })),
+      };
+
+      // Vytvoření obsahu e-mailů
+      const adminEmailSubject = `Nová registrace týmu: ${formData.teamName}`;
+      const adminEmailBody = createEmailBody(formData);
       
-      // Odeslání e-mailů přímo z prohlížeče
+      const teamEmailSubject = 'Potvrzení registrace do turnaje Street Cup 2025';
+      const teamEmailBody = formatRegistrationEmail(teamInfo);
+      
+      // Odeslání e-mailů pomocí EmailJS
+      const adminEmail = process.env.NEXT_PUBLIC_ADMIN_EMAIL || 'admin@streetcup2025.cz';
+      
+      // Odešleme email administrátorovi
       await sendRegistrationEmail(
-        process.env.NEXT_PUBLIC_ADMIN_EMAIL || 'admin@streetcup2025.cz',
+        adminEmail,
+        '',
+        adminEmailSubject,
+        adminEmailBody,
+        teamInfo.name,
+        teamInfo.players
+      );
+      
+      // Odešleme potvrzovací email týmu
+      await sendRegistrationEmail(
         formData.email,
-        formData.teamName,
-        emailContent
+        '',
+        teamEmailSubject,
+        teamEmailBody,
+        teamInfo.name,
+        teamInfo.players
       );
 
       setSubmitSuccess(true);
@@ -131,11 +168,12 @@ const RegistrationSection: React.FC = () => {
         teamName: '',
         email: '',
         phone: '',
+        contactName: '',
         players: [
-          { name: '', age: '' },
-          { name: '', age: '' },
-          { name: '', age: '' },
-          { name: '', age: '' }
+          { name: '', birthYear: '' },
+          { name: '', birthYear: '' },
+          { name: '', birthYear: '' },
+          { name: '', birthYear: '' }
         ],
         agreement: false
       });
@@ -200,6 +238,20 @@ const RegistrationSection: React.FC = () => {
                     </div>
                     
                     <div>
+                      <label htmlFor="contactName" className="block mb-1 font-medium">
+                        Kontaktní osoba
+                      </label>
+                      <input
+                        type="text"
+                        id="contactName"
+                        name="contactName"
+                        value={formData.contactName}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                      />
+                    </div>
+                    
+                    <div>
                       <label htmlFor="email" className="block mb-1 font-medium">
                         E-mail *
                       </label>
@@ -253,18 +305,18 @@ const RegistrationSection: React.FC = () => {
                         </div>
                         
                         <div>
-                          <label htmlFor={`playerAge${index}`} className="block mb-1 font-medium">
+                          <label htmlFor={`playerBirthYear${index}`} className="block mb-1 font-medium">
                             Věk
                           </label>
                           <input
                             type="number"
-                            id={`playerAge${index}`}
-                            name="age"
-                            value={player.age}
+                            id={`playerBirthYear${index}`}
+                            name="birthYear"
+                            value={player.birthYear}
                             onChange={(e) => handlePlayerChange(index, e)}
                             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                            min="10"
-                            max="99"
+                            min="1900"
+                            max="2025"
                           />
                         </div>
                       </div>
