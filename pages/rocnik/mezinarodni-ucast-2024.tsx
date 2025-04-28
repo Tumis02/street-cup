@@ -6,6 +6,7 @@ import { GetStaticProps } from 'next';
 import Layout from '@/components/Layout';
 import historyData from '../../data/history.json';
 import galleryData from '../../data/gallery-2024.json';
+import heroImage from '../../public/foto_street_2024.jpg';
 
 // Definice typu pro data ročníku
 interface YearData {
@@ -54,6 +55,7 @@ const PhotoModal: React.FC<{ photo: PhotoData; onClose: () => void }> = ({ photo
 // Tento komponent zobrazuje detaily ročníku 2024
 const Year2024Page: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, gallery }) => {
   const [selectedPhoto, setSelectedPhoto] = useState<PhotoData | null>(null);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
 
   return (
     <Layout>
@@ -62,80 +64,101 @@ const Year2024Page: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, g
         <meta name="description" content={yearData.description} />
       </Head>
 
-      {selectedPhoto && (
-        <PhotoModal photo={selectedPhoto} onClose={() => setSelectedPhoto(null)} />
+      {/* Lightbox modal */}
+      {lightboxOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center" onClick={() => setLightboxOpen(false)}>
+          <div className="relative max-w-3xl w-full flex items-center justify-center" onClick={e => e.stopPropagation()}>
+            <button
+              onClick={() => setLightboxOpen(false)}
+              className="absolute top-2 right-2 bg-white rounded-full w-10 h-10 flex items-center justify-center text-2xl z-10 shadow-lg"
+              aria-label="Zavřít"
+            >
+              &times;
+            </button>
+            <Image
+              src={heroImage}
+              alt={`Společné foto ročník ${yearData.year}`}
+              className="rounded-lg shadow-lg"
+              style={{maxHeight: '80vh', width: 'auto', height: 'auto', maxWidth: '90vw', objectFit: 'contain'}}
+            />
+          </div>
+        </div>
       )}
 
       <div className="container-custom py-12">
         <div className="text-center mb-12">
           <div className="text-4xl text-primary font-bold mb-4">Ročník {yearData.year}</div>
           <div className="h-1 w-20 bg-primary mx-auto mb-8"></div>
-          
           <div className="max-w-2xl mx-auto">
             <p className="text-lg mb-8">{yearData.description}</p>
           </div>
         </div>
 
-        {/* Statistiky a zajímavosti z ročníku 2024 */}
-        <div className="my-12">
-          <h2 className="text-2xl font-bold mb-6 text-center">Zajímavosti a statistiky</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Karta Celkové pořadí týmů */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Celkové pořadí týmů</h3>
-              {(() => {
-                const teams = [
-                  '🥇 Dunkers (Slovensko)',
-                  '🥈 Street Kings (Česko)',
-                  '🥉 Ballers (Česko)',
-                  'Street Queens (Česko)',
-                  'FunBallers (Polsko)',
-                  'Praha Stars (Česko)',
-                  'Brno Bulls (Česko)',
-                  'Ostrava Eagles (Česko)',
-                  'Košice Crew (Slovensko)',
-                  'Wroclaw Hoops (Polsko)'
-                  // ...další týmy dle potřeby...
-                ];
-                const half = Math.ceil(teams.length / 2);
-                const col1 = teams.slice(0, 6);
-                const col2 = teams.slice(6);
-                return (
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8">
-                    <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={1}>
-                      {col1.map((team, idx) => (
-                        <li key={idx}>
-                          <span className={idx < 3 ? 'font-bold text-primary' : ''}>{team}</span>
-                        </li>
-                      ))}
-                    </ol>
-                    <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={7}>
-                      {col2.map((team, idx) => (
-                        <li key={idx+6}>{team}</li>
-                      ))}
-                    </ol>
-                  </div>
-                );
-              })()}
-            </div>
-            
-            {/* Karta Nejlepší hráči */}
-            <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Nejlepší hráči a soutěže</h3>
-              <p className="mb-2"><strong>MVP muž:</strong> Jan Novák (Dunkers)</p>
-              <p className="mb-2"><strong>MVP žena:</strong> Petra Svobodová (Street Queens)</p>
-              <p className="mb-2"><strong>Vítěz shoot-out:</strong> Tomáš Dvořák (Street Kings)</p>
-              <p className="mb-2"><strong>Vítěz trestných hodů:</strong> Martin Polák (Ballers)</p>
-              <p><strong>Vítěz doplňkových soutěží:</strong> Tým FunBallers</p>
-            </div>
+        {/* Nový layout sekce */}
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 items-start">
+          {/* Pravý sloupec: velká fotka - na mobilech první, na xl druhý */}
+          <div className="order-1 xl:order-2 xl:col-span-2 flex items-center justify-center">
+            <Image
+              src={heroImage}
+              alt={`Společné foto ročník ${yearData.year}`}
+              className="rounded-md cursor-pointer shadow-md"
+              style={{objectFit: 'cover', width: '100%', maxWidth: '1000px', aspectRatio: '16/9'}}
+              onClick={() => setLightboxOpen(true)}
+            />
+          </div>
+          {/* Levý sloupec: karta - na mobilech druhá, na xl první */}
+          <div className="order-2 xl:order-1 bg-gray-50 p-6 rounded-lg shadow-md flex flex-col">
+            <h3 className="text-xl font-bold mb-3">Nejlepší hráči a soutěže</h3>
+            <p className="mb-2"><strong>MVP muž:</strong> Jan Novák (Dunkers)</p>
+            <p className="mb-2"><strong>MVP žena:</strong> Petra Svobodová (Street Queens)</p>
+            <p className="mb-2"><strong>Vítěz shoot-out:</strong> Tomáš Dvořák (Street Kings)</p>
+            <p className="mb-2"><strong>Vítěz trestných hodů:</strong> Martin Polák (Ballers)</p>
+            <p className="mb-6"><strong>Vítěz doplňkových soutěží:</strong> Tým FunBallers</p>
+            <h3 className="text-xl font-bold mb-3 mt-4">Celkové pořadí týmů</h3>
+            {(() => {
+              const teams = [
+                '🥇 Dunkers (Slovensko)',
+                '🥈 Street Kings (Česko)',
+                '🥉 Ballers (Česko)',
+                'Street Queens (Česko)',
+                'FunBallers (Polsko)',
+                'Praha Stars (Česko)',
+                'Brno Bulls (Česko)',
+                'Ostrava Eagles (Česko)',
+                'Košice Crew (Slovensko)',
+                'Košice Crew (Slovensko)',
+                'Košice Crew (Slovensko)',
+                'Košice Crew (Slovensko)',
+                'Košice Crew (Slovensko)',
+                'Košice Crew (Slovensko)',
+                'Košice Crew (Slovensko)',
+                'Wroclaw Hoops (Polsko)'
+              ];
+              const col1 = teams.slice(0, Math.ceil(teams.length/2));
+              const col2 = teams.slice(Math.ceil(teams.length/2));
+              return (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+                  <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={1}>
+                    {col1.map((team, idx) => (
+                      <li key={idx}>
+                        <span className={idx < 3 ? 'font-bold text-primary' : ''}>{team}</span>
+                      </li>
+                    ))}
+                  </ol>
+                  <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={col1.length+1}>
+                    {col2.map((team, idx) => (
+                      <li key={idx+col1.length}>{team}</li>
+                    ))}
+                  </ol>
+                </div>
+              );
+            })()}
           </div>
         </div>
 
         {/* Fotogalerie */}
         <div className="my-12">
           <h2 className="text-2xl font-bold mb-6 text-center">Fotogalerie</h2>
-          
           <div className="grid grid-cols-1 md:grid-cols-6 gap-4">
             {gallery.map((photo, index) => (
               <div 
