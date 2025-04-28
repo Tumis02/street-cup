@@ -7,6 +7,7 @@ import HeroSection from '@/components/HeroSection'
 import HistorySection from '@/components/HistorySection'
 import RegistrationSection from '@/components/RegistrationSection'
 import ContactSection from '@/components/ContactSection'
+import SponsorsSection from '@/components/SponsorsSection'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -20,7 +21,8 @@ export default function Home() {
         <HistorySection />
         <GallerySection />
         <RegistrationSection />
-        {/* <ContactSection /> */}
+        <SponsorsSection />
+        <ContactSection />
       </main>
       <Footer />
     </div>

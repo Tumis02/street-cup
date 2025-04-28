@@ -26,7 +26,7 @@ const AboutSection: React.FC = () => {
               zahraje minimálně 3 zápasy.
             </p>
 
-            <div className="mt-8">
+           {/*  <div className="mt-8">
               <h3 className="text-2xl font-bold mb-4">Klíčové informace</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
@@ -42,31 +42,27 @@ const AboutSection: React.FC = () => {
                   <span>Startovné: <strong>1500 Kč za tým</strong></span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <div className="absolute inset-0 bg-primary opacity-10"></div>
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center p-8">
-                <h3 className="text-3xl font-bold mb-4">Proč se zúčastnit?</h3>
+                <h3 className="text-3xl font-bold mb-4">Klíčové informace</h3>
                 <ul className="space-y-4 text-left">
                   <li className="flex items-center">
-                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">1</div>
-                    <span>Skvělá atmosféra a profesionální organizace</span>
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0"></div>
+                    <span>Datum konání: <strong>26.7.2025</strong></span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">2</div>
-                    <span>Hodnotné ceny pro vítězné týmy</span>
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0"></div>
+                    <span>Místo: <strong>Tyršův stadion v Šumperku</strong></span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">3</div>
-                    <span>Možnost potkat hráče z celé republiky</span>
-                  </li>
-                  <li className="flex items-center">
-                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">4</div>
-                    <span>Doprovodný program a soutěže pro všechny</span>
-                  </li>
+                    <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0"></div>
+                    <span>Startovné: <strong>200 Kč za osobu</strong></span>
+                  </li>                  
                 </ul>
               </div>
             </div>

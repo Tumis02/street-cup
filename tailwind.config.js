@@ -19,7 +19,8 @@ module.exports = {
         'white': '#FFFFFF'
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif']
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        graffiti: ['"Permanent Marker"', '"Rubik Spray Paint"', 'cursive']
       }
     },
   },

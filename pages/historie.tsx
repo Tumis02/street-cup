@@ -1,28 +1,31 @@
 import React from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
 import historyData from '../data/history.json';
+import Layout from '@/components/Layout';
 
-const HistorySection: React.FC = () => {
-  // Zobrazení pouze 5 nejnovějších záznamů (seřazených podle roku sestupně)
-  const recentHistory = [...historyData]
-    .sort((a, b) => parseInt(b.year) - parseInt(a.year))
-    .slice(0, 5);
-
+const HistoryPage: React.FC = () => {
   return (
-    <section id="history" className="section bg-white">
-      <div className="container-custom">
+    <Layout>
+      <Head>
+        <title>Kompletní historie turnaje | Street Cup 2025</title>
+        <meta name="description" content="Prohlédněte si kompletní historii basketbalového turnaje Street Cup od jeho začátků až po současnost." />
+      </Head>
+
+      <div className="container-custom py-12">
         <div className="text-center mb-12">
-          <h2 className="mb-4">Historie turnaje</h2>
+          <h1 className="text-4xl font-bold mb-4">Kompletní historie turnaje</h1>
           <div className="h-1 w-20 bg-primary mx-auto"></div>
+          <p className="mt-4 text-lg">Od skromných začátků až po mezinárodní turnaj</p>
         </div>
-        
+
         <div className="relative max-w-4xl mx-auto">
           {/* Vertikální čára časové osy */}
           <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 top-0 bottom-0 w-1 bg-primary-light"></div>
           
           {/* Historie události */}
           <div className="space-y-12">
-            {recentHistory.map((event, index) => (
+            {historyData.map((event, index) => (
               <div 
                 key={event.year} 
                 className={`relative flex flex-col md:flex-row items-center ${
@@ -56,16 +59,15 @@ const HistorySection: React.FC = () => {
             ))}
           </div>
         </div>
-        
-        {/* Tlačítko pro zobrazení kompletní historie */}
-        <div className="text-center mt-16">
-          <Link href="/historie" className="btn btn-primary text-lg px-6 py-3">
-            Zobrazit kompletní historii
+
+        <div className="mt-16 text-center">
+          <Link href="/" className="btn btn-primary text-lg px-6 py-3">
+            Zpět na hlavní stránku
           </Link>
         </div>
       </div>
-    </section>
+    </Layout>
   );
 };
 
-export default HistorySection; 
+export default HistoryPage; 

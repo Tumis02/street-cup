@@ -1,0 +1,38 @@
+[
+  {
+    "src": "/gallery/2024/photo1.jpg",
+    "alt": "Finálový zápas 2024",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/gallery/2024/photo2.jpg",
+    "alt": "Vítězný tým Dunkers",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/gallery/2024/photo3.jpg",
+    "alt": "Atmosféra turnaje",
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "src": "/gallery/2024/photo4.jpg",
+    "alt": "Zápasy ve skupinách",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/gallery/2024/photo5.jpg",
+    "alt": "Pohled na hřiště",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/gallery/2024/photo6.jpg",
+    "alt": "Předávání cen",
+    "width": 1200,
+    "height": 800
+  }
+] 

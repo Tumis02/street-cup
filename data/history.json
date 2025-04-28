@@ -1,0 +1,86 @@
+[
+  {
+    "year": "2012",
+    "title": "Začátky v parku",
+    "description": "Neformální začátek turnaje v pražském parku s 8 týmy místních nadšenců.",
+    "slug": "zacatky-v-parku-2012"
+  },
+  {
+    "year": "2013",
+    "title": "První oficiální ročník",
+    "description": "První oficiálně organizovaný turnaj s 12 týmy a sponzorskou podporou.",
+    "slug": "prvni-rocnik-2013"
+  },
+  {
+    "year": "2014",
+    "title": "Rozšíření formátu",
+    "description": "Turnaj se rozrostl na dvoudenní akci s 16 týmy a prvními diváky.",
+    "slug": "rozsireni-formatu-2014"
+  },
+  {
+    "year": "2015",
+    "title": "Nové kategorie",
+    "description": "Přidání juniorské kategorie a turnaje pro ženy. Celkem se zúčastnilo 20 týmů.",
+    "slug": "nove-kategorie-2015"
+  },
+  {
+    "year": "2016",
+    "title": "První mediální pokrytí",
+    "description": "Turnaj byl poprvé medializován v regionálním tisku. Zúčastnilo se 24 týmů.",
+    "slug": "prvni-medialni-pokryti-2016"
+  },
+  {
+    "year": "2017",
+    "title": "Mezinárodní rozměr",
+    "description": "První zahraniční týmy ze Slovenska. Celková účast 28 týmů.",
+    "slug": "mezinarodni-rozmer-2017"
+  },
+  {
+    "year": "2018",
+    "title": "Profesionální organizace",
+    "description": "Založení oficiální organizace pro pořádání turnaje. Účast 32 týmů z 3 zemí.",
+    "slug": "profesionalni-organizace-2018"
+  },
+  {
+    "year": "2019",
+    "title": "Televizní přenosy",
+    "description": "Finálové zápasy byly vysílány na sportovní televizní stanici. Rekordních 36 týmů.",
+    "slug": "televizni-prenosy-2019"
+  },
+  {
+    "year": "2020",
+    "title": "Virtuální ročník",
+    "description": "Kvůli pandemii proběhl turnaj online formou. Virtuální účast 25 týmů.",
+    "slug": "virtualni-rocnik-2020"
+  },
+  {
+    "year": "2021",
+    "title": "Návrat na hřiště",
+    "description": "Opětovný návrat k fyzickému turnaji s přísnými opatřeními. Účast 18 týmů.",
+    "slug": "navrat-na-hriste-2021"
+  },
+  {
+    "year": "2022",
+    "title": "První ročník Street Cup",
+    "description": "První ročník pod novým názvem se konal v Praze s účastí 24 týmů. Vítězem se stal tým \"Ballers\" z Prahy.",
+    "slug": "prvni-rocnik-street-cup-2022"
+  },
+  {
+    "year": "2023",
+    "title": "Rozšíření do dalších měst",
+    "description": "Turnaj se rozšířil do Brna a Ostravy s celkovou účastí 56 týmů. Celkovým vítězem se stal tým \"Street Kings\" z Brna.",
+    "slug": "rozsireni-do-dalsich-mest-2023"
+  },
+  {
+    "year": "2024",
+    "title": "Mezinárodní účast",
+    "description": "Do turnaje se zapojily i týmy ze Slovenska a Polska. Celkem se zúčastnilo 78 týmů. Vítězem se stal slovenský tým \"Dunkers\" z Bratislavy.",
+    "slug": "mezinarodni-ucast-2024"
+  },
+  {
+    "year": "2025",
+    "title": "Jubilejní ročník",
+    "description": "Očekáváme rekordní účast více než 100 týmů z celé střední Evropy. Přidáváme nové soutěže a doprovodný program.",
+    "slug": "jubilejni-rocnik-2025"
+  }
+] 

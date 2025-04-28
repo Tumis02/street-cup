@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "SportMax",
+    "logo": "/sponsors/sportmax-logo.png",
+    "url": "https://www.sportmax.cz"
+  },
+  {
+    "id": 2,
+    "name": "EnergoDrink",
+    "logo": "/sponsors/energodrink-logo.png",
+    "url": "https://www.energodrink.cz"
+  },
+  {
+    "id": 3,
+    "name": "Město Praha",
+    "logo": "/sponsors/praha-logo.png",
+    "url": "https://www.praha.eu"
+  },
+  {
+    "id": 4,
+    "name": "BasketballEquip",
+    "logo": "/sponsors/basketballequip-logo.png",
+    "url": "https://www.basketballequip.cz"
+  },
+  {
+    "id": 5,
+    "name": "SportMedia",
+    "logo": "/sponsors/sportmedia-logo.png",
+    "url": "https://www.sportmedia.cz"
+  },
+  {
+    "id": 6,
+    "name": "HealthPlus",
+    "logo": "/sponsors/healthplus-logo.png",
+    "url": "https://www.healthplus.cz"
+  }
+] 

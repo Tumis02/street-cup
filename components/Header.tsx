@@ -1,22 +1,57 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   const menuItems = [
-    { name: 'O turnaji', href: '#about' },
-    { name: 'Pravidla', href: '#rules' },
-    { name: 'Historie', href: '#history' },
-    { name: 'Fotogalerie', href: '#gallery' },
-    { name: 'Přihláška', href: '#registration' },
-    { name: 'Kontakty', href: '#contact' },
+    { name: 'O turnaji', href: '#about', id: 'about' },
+    { name: 'Pravidla', href: '#rules', id: 'rules' },
+    { name: 'Historie', href: '#history', id: 'history' },
+    { name: 'Fotogalerie', href: '#gallery', id: 'gallery' },
+    { name: 'Přihláška', href: '#registration', id: 'registration' },
+    { name: 'Kontakty', href: '#contact', id: 'contact' },
   ];
+
+  // Funkce pro zjištění viditelné sekce při scrollování
+  useEffect(() => {
+    const handleScroll = () => {
+      // Získáme všechny sekce
+      const sections = menuItems.map(item => document.getElementById(item.id)).filter(Boolean);
+      
+      // Získáme aktuální pozici scrollu
+      const scrollPosition = window.scrollY + 100; // Přidáme offset pro lepší detekci
+      
+      // Najdeme aktuální sekci
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i];
+        if (section && section.offsetTop <= scrollPosition) {
+          setActiveSection(section.id);
+          break;
+        }
+      }
+    };
+
+    // Přidáme event listener pro scrollování
+    window.addEventListener('scroll', handleScroll);
+    
+    // Zavoláme funkci při načtení stránky
+    handleScroll();
+    
+    // Odstraníme event listener při unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  // Funkce pro určení, zda je položka menu aktivní
+  const isActive = (id: string) => id === activeSection;
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -45,7 +80,9 @@ const Header: React.FC = () => {
             <Link 
               key={item.name} 
               href={item.href}
-              className="text-secondary hover:text-primary font-medium transition-colors"
+              className={`font-medium transition-colors ${
+                isActive(item.id) ? 'text-primary' : 'text-secondary hover:text-primary'
+              }`}
             >
               {item.name}
             </Link>
@@ -61,7 +98,9 @@ const Header: React.FC = () => {
               <Link 
                 key={item.name} 
                 href={item.href}
-                className="text-secondary hover:text-primary font-medium transition-colors"
+                className={`font-medium transition-colors ${
+                  isActive(item.id) ? 'text-primary' : 'text-secondary hover:text-primary'
+                }`}
                 onClick={toggleMenu}
               >
                 {item.name}

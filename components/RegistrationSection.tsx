@@ -13,6 +13,9 @@ interface FormData {
   agreement: boolean;
 }
 
+// Konstanta pro minimální věk
+const MIN_AGE = 16;
+
 const RegistrationSection: React.FC = () => {
   const [formData, setFormData] = useState<FormData>({
     teamName: '',
@@ -31,6 +34,7 @@ const RegistrationSection: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
+  const [ageErrors, setAgeErrors] = useState<{[key: number]: string}>({});
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -49,6 +53,23 @@ const RegistrationSection: React.FC = () => {
       ...prev,
       players: updatedPlayers
     }));
+
+    // Kontrola věku při změně
+    if (name === 'birthYear' && value) {
+      const age = parseInt(value);
+      if (age < MIN_AGE && age > 0) {
+        setAgeErrors(prev => ({
+          ...prev,
+          [index]: `Minimální věk pro účast v turnaji je ${MIN_AGE} let`
+        }));
+      } else {
+        setAgeErrors(prev => {
+          const newErrors = {...prev};
+          delete newErrors[index];
+          return newErrors;
+        });
+      }
+    }
   };
 
   const handleAgreementChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -65,7 +86,7 @@ const RegistrationSection: React.FC = () => {
       .map((player, index) => `
         <tr>
           <td><strong>Hráč ${index + 1}:</strong></td>
-          <td>${player.name}${player.birthYear ? `, ${player.birthYear}` : ''}</td>
+          <td>${player.name}${player.birthYear ? `, věk: ${player.birthYear} let` : ''}</td>
         </tr>
       `)
       .join('');
@@ -113,6 +134,25 @@ const RegistrationSection: React.FC = () => {
       const validPlayers = formData.players.filter(player => player.name.trim() !== '');
       if (validPlayers.length < 3) {
         throw new Error('Tým musí mít alespoň 3 hráče');
+      }
+
+      // Kontrola věku všech hráčů
+      let ageErrorFound = false;
+      formData.players.forEach((player, index) => {
+        if (player.name.trim() !== '' && player.birthYear) {
+          const age = parseInt(player.birthYear);
+          if (age < MIN_AGE) {
+            ageErrorFound = true;
+            setAgeErrors(prev => ({
+              ...prev,
+              [index]: `Minimální věk pro účast v turnaji je ${MIN_AGE} let`
+            }));
+          }
+        }
+      });
+
+      if (ageErrorFound) {
+        throw new Error(`Minimální věk pro účast v turnaji je ${MIN_AGE} let`);
       }
 
       // Vytvoříme data pro potvrzovací e-mail
@@ -177,6 +217,7 @@ const RegistrationSection: React.FC = () => {
         ],
         agreement: false
       });
+      setAgeErrors({});
     } catch (error) {
       if (error instanceof Error) {
         setSubmitError(error.message);
@@ -284,7 +325,7 @@ const RegistrationSection: React.FC = () => {
                 
                 <div>
                   <h3 className="text-xl font-bold mb-4">Seznam hráčů</h3>
-                  <p className="text-sm text-gray-600 mb-4">Vyplňte alespoň 3 hráče.</p>
+                  <p className="text-sm text-gray-600 mb-4">Vyplňte alespoň 3 hráče. Minimální věk pro účast v turnaji je {MIN_AGE} let.</p>
                   
                   <div className="space-y-4">
                     {formData.players.map((player, index) => (
@@ -308,16 +349,23 @@ const RegistrationSection: React.FC = () => {
                           <label htmlFor={`playerBirthYear${index}`} className="block mb-1 font-medium">
                             Věk
                           </label>
-                          <input
-                            type="number"
-                            id={`playerBirthYear${index}`}
-                            name="birthYear"
-                            value={player.birthYear}
-                            onChange={(e) => handlePlayerChange(index, e)}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                            min="1900"
-                            max="2025"
-                          />
+                          <div>
+                            <input
+                              type="number"
+                              id={`playerBirthYear${index}`}
+                              name="birthYear"
+                              value={player.birthYear}
+                              onChange={(e) => handlePlayerChange(index, e)}
+                              className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary ${
+                                ageErrors[index] ? 'border-red-500' : 'border-gray-300'
+                              }`}
+                              min={MIN_AGE}
+                              placeholder={`Min. věk: ${MIN_AGE} let`}
+                            />
+                            {ageErrors[index] && (
+                              <p className="text-red-500 text-sm mt-1">{ageErrors[index]}</p>
+                            )}
+                          </div>
                         </div>
                       </div>
                     ))}
@@ -343,7 +391,7 @@ const RegistrationSection: React.FC = () => {
                   <button
                     type="submit"
                     className="btn btn-primary"
-                    disabled={isSubmitting}
+                    disabled={isSubmitting || Object.keys(ageErrors).length > 0}
                   >
                     {isSubmitting ? 'Odesílám...' : 'Odeslat přihlášku'}
                   </button>

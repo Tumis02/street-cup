@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Spray+Paint&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,6 +60,12 @@
   }
   
   .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  }
+  
+  .graffiti-text {
+    font-family: 'Permanent Marker', 'Rubik Spray Paint', cursive;
+    letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   }
 } 
