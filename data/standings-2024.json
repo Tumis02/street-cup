@@ -1,0 +1,60 @@
+{
+  "standings": [
+    {
+      "rank": 1,
+      "team": "Dunkers",
+      "country": "Slovensko",
+      "mvp_men": "Peter Novák",
+      "mvp_women": "Lucia Kováčová"
+    },
+    {
+      "rank": 2,
+      "team": "Street Kings",
+      "country": "Česko",
+      "mvp_men": null,
+      "mvp_women": null
+    },
+    {
+      "rank": 3,
+      "team": "Ballers",
+      "country": "Česko",
+      "mvp_men": null,
+      "mvp_women": null
+    },
+    {
+      "rank": 4,
+      "team": "Hoopsters",
+      "country": "Polsko",
+      "mvp_men": null,
+      "mvp_women": null
+    },
+    {
+      "rank": 5,
+      "team": "Praha Stars",
+      "country": "Česko",
+      "mvp_men": null,
+      "mvp_women": null
+    },
+    {
+      "rank": 6,
+      "team": "Brno Bulls",
+      "country": "Česko",
+      "mvp_men": null,
+      "mvp_women": null
+    },
+    {
+      "rank": 7,
+      "team": "Ostrava Eagles",
+      "country": "Česko",
+      "mvp_men": null,
+      "mvp_women": null
+    },
+    {
+      "rank": 8,
+      "team": "Košice Crew",
+      "country": "Slovensko",
+      "mvp_men": null,
+      "mvp_women": null
+    }
+  ]
+} 

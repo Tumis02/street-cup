@@ -58,7 +58,7 @@ const Year2024Page: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, g
   return (
     <Layout>
       <Head>
-        <title>{yearData.title} | Street Cup {yearData.year}</title>
+        <title>Ročník {yearData.year} | Street Cup </title>
         <meta name="description" content={yearData.description} />
       </Head>
 
@@ -68,8 +68,7 @@ const Year2024Page: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, g
 
       <div className="container-custom py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-2">{yearData.title}</h1>
-          <div className="text-xl text-primary font-bold mb-4">Ročník {yearData.year}</div>
+          <div className="text-4xl text-primary font-bold mb-4">Ročník {yearData.year}</div>
           <div className="h-1 w-20 bg-primary mx-auto mb-8"></div>
           
           <div className="max-w-2xl mx-auto">
@@ -82,18 +81,53 @@ const Year2024Page: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, g
           <h2 className="text-2xl font-bold mb-6 text-center">Zajímavosti a statistiky</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Karta Celkové pořadí týmů */}
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Vítězové</h3>
-              <p className="mb-2"><strong>1. místo:</strong> Dunkers (Slovensko)</p>
-              <p className="mb-2"><strong>2. místo:</strong> Street Kings (Česko)</p>
-              <p><strong>3. místo:</strong> Ballers (Česko)</p>
+              <h3 className="text-xl font-bold mb-3">Celkové pořadí týmů</h3>
+              {(() => {
+                const teams = [
+                  '🥇 Dunkers (Slovensko)',
+                  '🥈 Street Kings (Česko)',
+                  '🥉 Ballers (Česko)',
+                  'Street Queens (Česko)',
+                  'FunBallers (Polsko)',
+                  'Praha Stars (Česko)',
+                  'Brno Bulls (Česko)',
+                  'Ostrava Eagles (Česko)',
+                  'Košice Crew (Slovensko)',
+                  'Wroclaw Hoops (Polsko)'
+                  // ...další týmy dle potřeby...
+                ];
+                const half = Math.ceil(teams.length / 2);
+                const col1 = teams.slice(0, 6);
+                const col2 = teams.slice(6);
+                return (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8">
+                    <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={1}>
+                      {col1.map((team, idx) => (
+                        <li key={idx}>
+                          <span className={idx < 3 ? 'font-bold text-primary' : ''}>{team}</span>
+                        </li>
+                      ))}
+                    </ol>
+                    <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={7}>
+                      {col2.map((team, idx) => (
+                        <li key={idx+6}>{team}</li>
+                      ))}
+                    </ol>
+                  </div>
+                );
+              })()}
             </div>
             
+            {/* Karta Nejlepší hráči */}
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Účast</h3>
-              <p className="mb-2"><strong>Celkem týmů:</strong> 78</p>
-              <p className="mb-2"><strong>Zastoupené země:</strong> Česko (58 týmů), Slovensko (16 týmů), Polsko (4 týmy)</p>
-              <p><strong>Celkem zápasů:</strong> 156</p>
+              <h3 className="text-xl font-bold mb-3">Nejlepší hráči a soutěže</h3>
+              <p className="mb-2"><strong>MVP muž:</strong> Jan Novák (Dunkers)</p>
+              <p className="mb-2"><strong>MVP žena:</strong> Petra Svobodová (Street Queens)</p>
+              <p className="mb-2"><strong>Vítěz shoot-out:</strong> Tomáš Dvořák (Street Kings)</p>
+              <p className="mb-2"><strong>Vítěz trestných hodů:</strong> Martin Polák (Ballers)</p>
+              <p><strong>Vítěz doplňkových soutěží:</strong> Tým FunBallers</p>
             </div>
           </div>
         </div>
@@ -102,7 +136,7 @@ const Year2024Page: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, g
         <div className="my-12">
           <h2 className="text-2xl font-bold mb-6 text-center">Fotogalerie</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-6 gap-4">
             {gallery.map((photo, index) => (
               <div 
                 key={index} 

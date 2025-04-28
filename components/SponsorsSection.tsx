@@ -39,7 +39,7 @@ const SponsorsSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
+      {/*   <div className="text-center mt-12">
           <p className="text-gray-500 mb-4">Máte zájem stát se sponzorem turnaje?</p>
           <Link 
             href="#contact" 
@@ -47,7 +47,7 @@ const SponsorsSection: React.FC = () => {
           >
             Kontaktujte nás
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

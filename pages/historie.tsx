@@ -1,8 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import historyData from '../data/history.json';
 import Layout from '@/components/Layout';
+import heroImage from '../public/foto_street_2024.jpg';
 
 const HistoryPage: React.FC = () => {
   return (
@@ -46,13 +48,21 @@ const HistoryPage: React.FC = () => {
                 {/* Bod na časové ose */}
                 <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 rounded-full bg-primary border-4 border-white z-10"></div>
                 
-                {/* Obsah */}
+                {/* Obsah - fotografie */}
                 <div className="md:w-1/2 md:pl-8 md:pr-8">
-                  <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-                    <Link href={`/rocnik/${event.slug}`} className="hover:text-primary">
-                      <h3 className="text-xl font-bold mb-2">{event.title}</h3>
-                    </Link>
-                    <p>{event.description}</p>
+                  <div className="bg-gray-50 p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <Image 
+                      src={heroImage}
+                      alt={`Fotografie z ročníku ${event.year}`}
+                      className="rounded-md mb-4"
+                      style={{objectFit: 'cover', width: '100%', height: '200px', maxWidth: 400}}
+                    />
+                    <div className="text-center">
+                      <Link href={`/rocnik/${event.slug}`} className="hover:text-primary">
+                        <h3 className="text-xl font-bold mb-2">{event.title}</h3>
+                      </Link>
+                      <p className="text-gray-600 text-sm">{event.description}</p>
+                    </div>
                   </div>
                 </div>
               </div>
