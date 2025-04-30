@@ -3,84 +3,493 @@
     "year": "2012",
     "title": "Začátky v parku",
     "description": "Neformální začátek turnaje v pražském parku s 8 týmy místních nadšenců.",
-    "slug": "zacatky-v-parku-2012"
+    "slug": "zacatky-v-parku-2012",
+    "awards": [
+      {
+        "winner": "Pražští draci",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Jan Novák",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Pražští draci", "position": 1},
+      {"teamName": "Městští orli", "position": 2},
+      {"teamName": "Parkoví tygři", "position": 3},
+      {"teamName": "Street Warriors", "position": 4},
+      {"teamName": "Basketbaloví nadšenci", "position": 5},
+      {"teamName": "Městská garda", "position": 6},
+      {"teamName": "Parkoví vlci", "position": 7},
+      {"teamName": "Street Kings", "position": 8}
+    ]
   },
   {
     "year": "2013",
     "title": "První oficiální ročník",
     "description": "První oficiálně organizovaný turnaj s 12 týmy a sponzorskou podporou.",
-    "slug": "prvni-rocnik-2013"
+    "slug": "prvni-rocnik-2013",
+    "awards": [
+      {
+        "winner": "Městští orli",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Petr Svoboda",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Městští orli", "position": 1},
+      {"teamName": "Pražští draci", "position": 2},
+      {"teamName": "Street Warriors", "position": 3},
+      {"teamName": "Basketbaloví nadšenci", "position": 4},
+      {"teamName": "Parkoví tygři", "position": 5},
+      {"teamName": "Městská garda", "position": 6},
+      {"teamName": "Parkoví vlci", "position": 7},
+      {"teamName": "Street Kings", "position": 8},
+      {"teamName": "Noví hráči", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12}
+    ]
   },
   {
     "year": "2014",
     "title": "Rozšíření formátu",
     "description": "Turnaj se rozrostl na dvoudenní akci s 16 týmy a prvními diváky.",
-    "slug": "rozsireni-formatu-2014"
+    "slug": "rozsireni-formatu-2014",
+    "awards": [
+      {
+        "winner": "Street Warriors",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Martin Dvořák",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Street Warriors", "position": 1},
+      {"teamName": "Městští orli", "position": 2},
+      {"teamName": "Pražští draci", "position": 3},
+      {"teamName": "Basketbaloví nadšenci", "position": 4},
+      {"teamName": "Parkoví tygři", "position": 5},
+      {"teamName": "Městská garda", "position": 6},
+      {"teamName": "Parkoví vlci", "position": 7},
+      {"teamName": "Street Kings", "position": 8},
+      {"teamName": "Noví hráči", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12}
+    ]
   },
   {
     "year": "2015",
     "title": "Nové kategorie",
     "description": "Přidání juniorské kategorie a turnaje pro ženy. Celkem se zúčastnilo 20 týmů.",
-    "slug": "nove-kategorie-2015"
+    "slug": "nove-kategorie-2015",
+    "awards": [
+      {
+        "winner": "Basketbaloví nadšenci",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Anna Nováková",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Tomáš Malý",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Basketbaloví nadšenci", "position": 1},
+      {"teamName": "Street Warriors", "position": 2},
+      {"teamName": "Městští orli", "position": 3},
+      {"teamName": "Pražští draci", "position": 4},
+      {"teamName": "Parkoví tygři", "position": 5},
+      {"teamName": "Městská garda", "position": 6},
+      {"teamName": "Parkoví vlci", "position": 7},
+      {"teamName": "Street Kings", "position": 8},
+      {"teamName": "Noví hráči", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12},
+      {"teamName": "Městští jestřábi", "position": 13}
+    ]
   },
   {
     "year": "2016",
     "title": "První mediální pokrytí",
     "description": "Turnaj byl poprvé medializován v regionálním tisku. Zúčastnilo se 24 týmů.",
-    "slug": "prvni-medialni-pokryti-2016"
+    "slug": "prvni-medialni-pokryti-2016",
+    "awards": [
+      {
+        "winner": "Parkoví tygři",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Eva Svobodová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Jan Malý",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Parkoví tygři", "position": 1},
+      {"teamName": "Basketbaloví nadšenci", "position": 2},
+      {"teamName": "Street Warriors", "position": 3},
+      {"teamName": "Městští orli", "position": 4},
+      {"teamName": "Pražští draci", "position": 5},
+      {"teamName": "Městská garda", "position": 6},
+      {"teamName": "Parkoví vlci", "position": 7},
+      {"teamName": "Street Kings", "position": 8},
+      {"teamName": "Noví hráči", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12},
+      {"teamName": "Městští jestřábi", "position": 13},
+      {"teamName": "Parkoví lvi", "position": 14}
+    ]
   },
   {
     "year": "2017",
     "title": "Mezinárodní rozměr",
     "description": "První zahraniční týmy ze Slovenska. Celková účast 28 týmů.",
-    "slug": "mezinarodni-rozmer-2017"
+    "slug": "mezinarodni-rozmer-2017",
+    "awards": [
+      {
+        "winner": "Městská garda",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Zuzana Kováčová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Peter Novák",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Městská garda", "position": 1},
+      {"teamName": "Parkoví tygři", "position": 2},
+      {"teamName": "Basketbaloví nadšenci", "position": 3},
+      {"teamName": "Street Warriors", "position": 4},
+      {"teamName": "Městští orli", "position": 5},
+      {"teamName": "Pražští draci", "position": 6},
+      {"teamName": "Parkoví vlci", "position": 7},
+      {"teamName": "Street Kings", "position": 8},
+      {"teamName": "Noví hráči", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12},
+      {"teamName": "Městští jestřábi", "position": 13},
+      {"teamName": "Parkoví lvi", "position": 14},
+      {"teamName": "Street Masters", "position": 15}
+    ]
   },
   {
     "year": "2018",
     "title": "Profesionální organizace",
     "description": "Založení oficiální organizace pro pořádání turnaje. Účast 32 týmů z 3 zemí.",
-    "slug": "profesionalni-organizace-2018"
+    "slug": "profesionalni-organizace-2018",
+    "awards": [
+      {
+        "winner": "Parkoví vlci",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Martina Kováčová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Ján Horváth",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Parkoví vlci", "position": 1},
+      {"teamName": "Městská garda", "position": 2},
+      {"teamName": "Parkoví tygři", "position": 3},
+      {"teamName": "Basketbaloví nadšenci", "position": 4},
+      {"teamName": "Street Warriors", "position": 5},
+      {"teamName": "Městští orli", "position": 6},
+      {"teamName": "Pražští draci", "position": 7},
+      {"teamName": "Street Kings", "position": 8},
+      {"teamName": "Noví hráči", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12},
+      {"teamName": "Městští jestřábi", "position": 13},
+      {"teamName": "Parkoví lvi", "position": 14},
+      {"teamName": "Street Masters", "position": 15},
+      {"teamName": "Městští orli B", "position": 16}
+    ]
   },
   {
     "year": "2019",
     "title": "Televizní přenosy",
     "description": "Finálové zápasy byly vysílány na sportovní televizní stanici. Rekordních 36 týmů.",
-    "slug": "televizni-prenosy-2019"
+    "slug": "televizni-prenosy-2019",
+    "awards": [
+      {
+        "winner": "Street Kings",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Eva Horváthová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Martin Schmidt",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Street Kings", "position": 1},
+      {"teamName": "Parkoví vlci", "position": 2},
+      {"teamName": "Městská garda", "position": 3},
+      {"teamName": "Parkoví tygři", "position": 4},
+      {"teamName": "Basketbaloví nadšenci", "position": 5},
+      {"teamName": "Street Warriors", "position": 6},
+      {"teamName": "Městští orli", "position": 7},
+      {"teamName": "Pražští draci", "position": 8},
+      {"teamName": "Noví hráči", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12},
+      {"teamName": "Městští jestřábi", "position": 13},
+      {"teamName": "Parkoví lvi", "position": 14},
+      {"teamName": "Street Masters", "position": 15},
+      {"teamName": "Městští orli B", "position": 16}
+    ]
   },
   {
     "year": "2020",
     "title": "Virtuální ročník",
     "description": "Kvůli pandemii proběhl turnaj online formou. Virtuální účast 25 týmů.",
-    "slug": "virtualni-rocnik-2020"
+    "slug": "virtualni-rocnik-2020",
+    "awards": [
+      {
+        "winner": "Noví hráči",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Anna Schmidtová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Tomáš Weber",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Noví hráči", "position": 1},
+      {"teamName": "Street Kings", "position": 2},
+      {"teamName": "Parkoví vlci", "position": 3},
+      {"teamName": "Městská garda", "position": 4},
+      {"teamName": "Parkoví tygři", "position": 5},
+      {"teamName": "Basketbaloví nadšenci", "position": 6},
+      {"teamName": "Street Warriors", "position": 7},
+      {"teamName": "Městští orli", "position": 8},
+      {"teamName": "Pražští draci", "position": 9},
+      {"teamName": "Městští sokoli", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12},
+      {"teamName": "Městští jestřábi", "position": 13},
+      {"teamName": "Parkoví lvi", "position": 14},
+      {"teamName": "Street Masters", "position": 15},
+      {"teamName": "Městští orli B", "position": 16}
+    ]
   },
   {
     "year": "2021",
     "title": "Návrat na hřiště",
     "description": "Opětovný návrat k fyzickému turnaji s přísnými opatřeními. Účast 18 týmů.",
-    "slug": "navrat-na-hriste-2021"
+    "slug": "navrat-na-hriste-2021",
+    "awards": [
+      {
+        "winner": "Městští sokoli",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Zuzana Weberová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Jan Schmidt",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Městští sokoli", "position": 1},
+      {"teamName": "Noví hráči", "position": 2},
+      {"teamName": "Street Kings", "position": 3},
+      {"teamName": "Parkoví vlci", "position": 4},
+      {"teamName": "Městská garda", "position": 5},
+      {"teamName": "Parkoví tygři", "position": 6},
+      {"teamName": "Basketbaloví nadšenci", "position": 7},
+      {"teamName": "Street Warriors", "position": 8},
+      {"teamName": "Městští orli", "position": 9},
+      {"teamName": "Pražští draci", "position": 10},
+      {"teamName": "Parkoví medvědi", "position": 11},
+      {"teamName": "Street Legends", "position": 12},
+      {"teamName": "Městští jestřábi", "position": 13},
+      {"teamName": "Parkoví lvi", "position": 14},
+      {"teamName": "Street Masters", "position": 15},
+      {"teamName": "Městští orli B", "position": 16}
+    ]
   },
   {
     "year": "2022",
     "title": "První ročník Street Cup",
     "description": "První ročník pod novým názvem se konal v Praze s účastí 24 týmů. Vítězem se stal tým \"Ballers\" z Prahy.",
-    "slug": "prvni-rocnik-street-cup-2022"
+    "slug": "prvni-rocnik-street-cup-2022",
+    "awards": [
+      {
+        "winner": "Ballers",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Eva Schmidtová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Tomáš Weber",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Ballers", "position": 1},
+      {"teamName": "Městští sokoli", "position": 2},
+      {"teamName": "Noví hráči", "position": 3},
+      {"teamName": "Street Kings", "position": 4},
+      {"teamName": "Parkoví vlci", "position": 5},
+      {"teamName": "Městská garda", "position": 6},
+      {"teamName": "Parkoví tygři", "position": 7},
+      {"teamName": "Basketbaloví nadšenci", "position": 8},
+      {"teamName": "Street Warriors", "position": 9},
+      {"teamName": "Městští orli", "position": 10},
+      {"teamName": "Pražští draci", "position": 11},
+      {"teamName": "Parkoví medvědi", "position": 12},
+      {"teamName": "Street Legends", "position": 13},
+      {"teamName": "Městští jestřábi", "position": 14},
+      {"teamName": "Parkoví lvi", "position": 15},
+      {"teamName": "Street Masters", "position": 16}
+    ]
   },
   {
     "year": "2023",
     "title": "Rozšíření do dalších měst",
     "description": "Turnaj se rozšířil do Brna a Ostravy s celkovou účastí 56 týmů. Celkovým vítězem se stal tým \"Street Kings\" z Brna.",
-    "slug": "rozsireni-do-dalsich-mest-2023"
+    "slug": "rozsireni-do-dalsich-mest-2023",
+    "awards": [
+      {
+        "winner": "Street Kings",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "Anna Weberová",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "Martin Schmidt",
+        "category": "Vítěz shoot-out"
+      }
+    ],
+    "results": [
+      {"teamName": "Street Kings", "position": 1},
+      {"teamName": "Ballers", "position": 2},
+      {"teamName": "Městští sokoli", "position": 3},
+      {"teamName": "Noví hráči", "position": 4},
+      {"teamName": "Parkoví vlci", "position": 5},
+      {"teamName": "Městská garda", "position": 6},
+      {"teamName": "Parkoví tygři", "position": 7},
+      {"teamName": "Basketbaloví nadšenci", "position": 8},
+      {"teamName": "Street Warriors", "position": 9},
+      {"teamName": "Městští orli", "position": 10},
+      {"teamName": "Pražští draci", "position": 11},
+      {"teamName": "Parkoví medvědi", "position": 12},
+      {"teamName": "Street Legends", "position": 13},
+      {"teamName": "Městští jestřábi", "position": 14},
+      {"teamName": "Parkoví lvi", "position": 15},
+      {"teamName": "Street Masters", "position": 16},
+      {"teamName": "Městští orli B", "position": 17},
+      {"teamName": "Juniorské naděje", "position": 18}
+    ]
   },
   {
     "year": "2024",
     "title": "Mezinárodní účast",
     "description": "Do turnaje se zapojily i týmy ze Slovenska a Polska. Celkem se zúčastnilo 78 týmů. Vítězem se stal slovenský tým \"Dunkers\" z Bratislavy.",
-    "slug": "mezinarodni-ucast-2024"
+    "slug": "mezinarodni-ucast-2024",
+    "awards": [
+      {
+        "winner": "Dunkers",
+        "category": "MVP muž" 
+      },
+      {
+        "winner": "Petra Svobodová",
+        "category": "MVP žena"
+      },
+      { 
+        "winner": "Tomáš Dvořák",
+        "category": "Vítěz shoot-out"
+      },
+      {
+        "winner": "Martin Polák",
+        "category": "Vítěz trestných hodů"
+      },
+      {
+        "winner": "Tým FunBallers",
+        "category": "Vítěz doplňkových soutěží"
+      }
+    ],
+    "results": [{"teamName": "Dunkers", "position": 1}, {"teamName": "Street Kings", "position": 2}, {"teamName": "Ballers", "position": 3}, {"teamName": "Street Queens", "position": 4}, {"teamName": "FunBallers", "position": 5}, {"teamName": "Praha Stars", "position": 6}, {"teamName": "Brno Bulls", "position": 7}, {"teamName": "Ostrava Eagles", "position": 8}, {"teamName": "Košice Crew", "position": 9}, {"teamName": "Wroclaw Hoops", "position": 10}]
   },
   {
     "year": "2025",
     "title": "Jubilejní ročník",
     "description": "Očekáváme rekordní účast více než 100 týmů z celé střední Evropy. Přidáváme nové soutěže a doprovodný program.",
-    "slug": "jubilejni-rocnik-2025"
+    "slug": "jubilejni-rocnik-2025",
+    "awards": [
+      {
+        "winner": "TBD",
+        "category": "MVP muž"
+      },
+      {
+        "winner": "TBD",
+        "category": "MVP žena"
+      },
+      {
+        "winner": "TBD",
+        "category": "Vítěz shoot-out"
+      },
+      {
+        "winner": "TBD",
+        "category": "Vítěz trestných hodů"
+      },
+      {
+        "winner": "TBD",
+        "category": "Vítěz doplňkových soutěží"
+      }
+    ],
+    "results": [
+      {"teamName": "TBD", "position": 1},
+      {"teamName": "TBD", "position": 2},
+      {"teamName": "TBD", "position": 3},
+      {"teamName": "TBD", "position": 4},
+      {"teamName": "TBD", "position": 5},
+      {"teamName": "TBD", "position": 6},
+      {"teamName": "TBD", "position": 7},
+      {"teamName": "TBD", "position": 8},
+      {"teamName": "TBD", "position": 9},
+      {"teamName": "TBD", "position": 10}
+    ]
   }
 ] 

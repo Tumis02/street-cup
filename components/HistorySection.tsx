@@ -32,7 +32,7 @@ const HistorySection: React.FC = () => {
                 {/* Datum */}
                 <div className="md:w-1/2 flex items-center md:pr-8 md:pl-8">
                   <div className={`flex ${index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'} w-full`}>
-                    <Link href={`/rocnik/${event.slug}`}>
+                    <Link href={`/rocnik/${event.year}`}>
                       <div className="p-3 bg-primary text-white font-bold rounded-lg shadow-md z-10 hover:bg-primary-dark transition-colors cursor-pointer">
                         {event.year}
                       </div>
@@ -46,7 +46,7 @@ const HistorySection: React.FC = () => {
                 {/* Obsah */}
                 <div className="md:w-1/2 md:pl-8 md:pr-8">
                   <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-                    <Link href={`/rocnik/${event.slug}`} className="hover:text-primary">
+                    <Link href={`/rocnik/${event.year}`} className="hover:text-primary">
                       <h3 className="text-xl font-bold mb-2">{event.title}</h3>
                     </Link>
                     <p>{event.description}</p>
