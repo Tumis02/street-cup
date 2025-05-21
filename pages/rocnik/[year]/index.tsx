@@ -86,7 +86,7 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
           <div className="text-4xl text-primary font-bold mb-4">Ročník {yearData.year}</div>
           <div className="h-1 w-20 bg-primary mx-auto mb-8"></div>
           <div className="mx-auto w-full max-w-8xl">
-            <p className="text-lg mb-8 text-justify">{yearData.description}</p>
+            <p className="text-lg mb-8 text-justify whitespace-pre-line">{yearData.description}</p>
           </div>
         </div>
 
