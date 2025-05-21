@@ -61,7 +61,7 @@ const HistoryPage: React.FC = () => {
                       <Link href={`/rocnik/${event.year}`} className="hover:text-primary">
                         <h3 className="text-xl font-bold mb-2">{event.title}</h3>
                       </Link>
-                      <p className="text-gray-600 text-sm">{event.description}</p>
+                      {/* <p className="text-gray-600 text-sm">{event.description}</p> */}
                     </div>
                   </div>
                 </div>

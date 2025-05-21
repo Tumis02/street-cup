@@ -18,10 +18,13 @@ interface YearData {
   awards: {
     winner: string;
     category: string;
+    photo?: string;
   }[];
   results: {
     teamName: string;
     position: number;
+    players?: string[];
+    photo?: string;
   }[];
 }
 
@@ -38,6 +41,19 @@ interface YearPageProps {
 const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, gallery }) => {
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
   const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [teamPhoto, setTeamPhoto] = useState<PhotoData | null>(null);
+
+  const handleTeamClick = (photo: string | undefined, teamName: string) => {
+    if (photo) {
+      setTeamPhoto({
+        src: `/${yearData.year}/${photo}`,
+        alt: `${teamName}`,
+        width: 1200,
+        height: 800
+      });
+      setLightboxOpen(true);
+    }
+  };
 
   return (
     <Layout>
@@ -54,11 +70,14 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
           onClose={() => setSelectedPhotoIndex(null)}
         />
       )}
-      {lightboxOpen && (
+      {lightboxOpen && teamPhoto && (
         <PhotoModal
-          photos={[{src: heroImage, alt: 'Fotografie z ročníku 2024', width: 1200, height: 800} as PhotoData]}
+          photos={[teamPhoto]}
           currentIndex={0}
-          onClose={() => setLightboxOpen(false)}
+          onClose={() => {
+            setLightboxOpen(false);
+            setTeamPhoto(null);
+          }}
         />
       )}
 
@@ -66,8 +85,8 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
         <div className="text-center mb-12">
           <div className="text-4xl text-primary font-bold mb-4">Ročník {yearData.year}</div>
           <div className="h-1 w-20 bg-primary mx-auto mb-8"></div>
-          <div className="max-w-2xl mx-auto">
-            <p className="text-lg mb-8">{yearData.description}</p>
+          <div className="mx-auto w-full max-w-8xl">
+            <p className="text-lg mb-8 text-justify">{yearData.description}</p>
           </div>
         </div>
 
@@ -78,40 +97,55 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
             <Image
               src={heroImage}
               alt={`Společné foto ročník ${yearData.year}`}
-              className="rounded-md cursor-pointer shadow-md"
+              className="rounded-md cursor-pointer shadow-md hover:opacity-90 transition-opacity"
               style={{objectFit: 'cover', width: '100%', maxWidth: '1000px', aspectRatio: '16/9'}}
-              onClick={() => setLightboxOpen(true)}
+              onClick={() => {
+                setTeamPhoto({
+                  src: heroImage.src,
+                  alt: `Společné foto ročník ${yearData.year}`,
+                  width: 1200,
+                  height: 800
+                });
+                setLightboxOpen(true);
+              }}
             />
           </div>
           {/* Levý sloupec: karta - na mobilech druhá, na xl první */}
           <div className="order-2 xl:order-1 bg-gray-50 p-6 rounded-lg shadow-md flex flex-col">
             <h3 className="text-xl font-bold mb-3">Nejlepší hráči a soutěže</h3>
             {yearData.awards && yearData.awards.map((award, index) => (
-              <p key={index} className="mb-2"><strong>{award.category}:</strong> {award.winner}</p>
+              <p key={index} className="mb-2">
+                <strong>{award.category}:</strong>{' '}
+                <span 
+                  className={`${award.photo ? 'cursor-pointer hover:text-primary-dark' : ''}`}
+                  onClick={() => handleTeamClick(award.photo, `${award.winner} - ${award.category}`)}
+                >
+                  {award.winner}
+                </span>
+              </p>
             ))}
            
             <h3 className="text-xl font-bold mb-3 mt-4">Celkové pořadí týmů</h3>
-            {(() => {
-              const teams = yearData.results.sort((a, b) => a.position - b.position).map(result => result.teamName);
-              const col1 = teams.slice(0, Math.ceil(teams.length/2));
-              const col2 = teams.slice(Math.ceil(teams.length/2));
-              return (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
-                  <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={1}>
-                    {col1.map((team, idx) => (
-                      <li key={idx}>
-                        <span className={idx < 3 ? 'font-bold text-primary' : ''}>{team} {idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : ''}</span>
-                      </li>
-                    ))}
-                  </ol>
-                  <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={col1.length+1}>
-                    {col2.map((team, idx) => (
-                      <li key={idx+col1.length}>{team}</li>
-                    ))}
-                  </ol>
-                </div>
-              );
-            })()}
+            <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={1}>
+              {yearData.results
+                .sort((a, b) => a.position - b.position)
+                .map((result, idx) => (
+                  <li key={idx} style={{listStyleType: idx < 3 ? 'none' : 'decimal'}}>
+                    {idx === 0 && <span>🥇 </span>}
+                    {idx === 1 && <span>🥈 </span>}
+                    {idx === 2 && <span>🥉 </span>}
+                    <span 
+                      className={`${idx < 3 ? 'font-bold text-primary' : 'font-bold'} ${result.photo ? 'cursor-pointer hover:text-primary-dark' : ''}`}
+                      onClick={() => handleTeamClick(result.photo, result.teamName)}
+                    >
+                      {result.teamName}
+                    </span>
+                    {result.players && result.players.length > 0 && (
+                      <span> ({result.players.join(', ')})</span>
+                    )}
+                  </li>
+                ))}
+            </ol>
           </div>
         </div>
 

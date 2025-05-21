@@ -70,7 +70,7 @@ const PhotoModal: React.FC<{ photos: PhotoData[]; currentIndex: number; onClose:
               priority
             />
           </div>
-          <div className="absolute bottom-4 left-0 right-0 text-center text-white bg-black bg-opacity-50 py-2">
+          <div className="absolute bottom-4 left-0 right-0 text-center text-white  py-2">
             {photos[index].alt}
           </div>
         </div>

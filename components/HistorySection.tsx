@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import historyData from '../data/history.json';
+import Image from 'next/image';
+import heroImage from '../public/foto_street_2024.jpg';
 
 const HistorySection: React.FC = () => {
   // Zobrazení pouze 5 nejnovějších záznamů (seřazených podle roku sestupně)
@@ -45,11 +47,18 @@ const HistorySection: React.FC = () => {
                 
                 {/* Obsah */}
                 <div className="md:w-1/2 md:pl-8 md:pr-8">
-                  <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-                    <Link href={`/rocnik/${event.year}`} className="hover:text-primary">
-                      <h3 className="text-xl font-bold mb-2">{event.title}</h3>
-                    </Link>
-                    <p>{event.description}</p>
+                  <div className="bg-gray-50 p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <Image 
+                      src={heroImage}
+                      alt={`Fotografie z ročníku ${event.year}`}
+                      className="rounded-md mb-4"
+                      style={{objectFit: 'cover', width: '100%', height: '200px', maxWidth: 400}}
+                    />
+                    <div className="text-center">
+                      <Link href={`/rocnik/${event.year}`} className="hover:text-primary">
+                        <h3 className="text-xl font-bold mb-2">{event.title}</h3>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
