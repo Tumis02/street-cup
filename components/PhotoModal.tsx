@@ -37,13 +37,13 @@ const PhotoModal: React.FC<{ photos: PhotoData[]; currentIndex: number; onClose:
     return (
       <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center p-4" onClick={onClose}>
         <div className="relative max-w-6xl max-h-[90vh] w-full" onClick={(e) => e.stopPropagation()}>
-          <button 
+         {/*  <button 
             onClick={onClose}
             className="absolute top-4 right-4 bg-white rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-gray-200"
             aria-label="Zavřít"
           >
             &times;
-          </button>
+          </button> */}
           
          {photos.length > 1 && <> <button
             onClick={handlePrev}
