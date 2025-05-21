@@ -13,8 +13,6 @@ import Footer from '@/components/Footer'
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-grow">
         <HeroSection />
         <AboutSection />
         <RulesSection />
@@ -23,8 +21,6 @@ export default function Home() {
         <RegistrationSection />
         <SponsorsSection />
         <ContactSection />
-      </main>
-      <Footer />
     </div>
   )
 } 

@@ -1,27 +1,35 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useRouter } from 'next/router';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   const menuItems = [
-    { name: 'O turnaji', href: '#about', id: 'about' },
-    { name: 'Pravidla', href: '#rules', id: 'rules' },
-    { name: 'Historie', href: '#history', id: 'history' },
-    { name: 'Fotogalerie', href: '#gallery', id: 'gallery' },
-    { name: 'Přihláška', href: '#registration', id: 'registration' },
-    { name: 'Kontakty', href: '#contact', id: 'contact' },
+    { name: 'O turnaji', href: '/#about', id: 'about' },
+    { name: 'Pravidla', href: '/#rules', id: 'rules' },
+    { name: 'Historie', href: '/#history', id: 'history' },
+    { name: 'Fotogalerie', href: '/#gallery', id: 'gallery' },
+    { name: 'Přihláška', href: '/#registration', id: 'registration' },
+    { name: 'Kontakty', href: '/#contact', id: 'contact' },
   ];
 
   // Funkce pro zjištění viditelné sekce při scrollování
   useEffect(() => {
     const handleScroll = () => {
+      // Kontrola, zda jsme na úvodní stránce
+      if (router.pathname !== '/') {
+        setActiveSection('');
+        return;
+      }
+
       // Získáme všechny sekce
       const sections = menuItems.map(item => document.getElementById(item.id)).filter(Boolean);
       
@@ -48,10 +56,10 @@ const Header: React.FC = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [router.pathname]);
 
   // Funkce pro určení, zda je položka menu aktivní
-  const isActive = (id: string) => id === activeSection;
+  const isActive = (id: string) => router.pathname === '/' && id === activeSection;
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
