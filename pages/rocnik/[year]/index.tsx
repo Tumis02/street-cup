@@ -5,7 +5,6 @@ import Image, { StaticImageData } from 'next/image';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import Layout from '@/components/Layout';
 import historyData from '../../../data/history.json';
-import heroImage from '../../../public/foto_street_2024.jpg';
 import PhotoModal from '@/components/PhotoModal';
 import { PhotoData } from '@/components/PhotoModal';
 
@@ -15,6 +14,7 @@ interface YearData {
   title: string;
   description: string;
   slug: string;
+  photo?: string;
   awards: {
     winner: string;
     category: string;
@@ -83,7 +83,30 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
 
       <div className="container-custom py-12">
         <div className="text-center mb-12">
-          <div className="text-4xl text-primary font-bold mb-4">Ročník {yearData.year}</div>
+          {/* Navigace a nadpis */}
+          <div className="flex flex-col sm:flex-row items-center justify-between mb-4">
+            {/* Levá navigace */}
+            <div className="mb-2 sm:mb-0 sm:w-32">
+              {prevYear && (
+                <Link href={`/rocnik/${prevYear.year}`} className="btn btn-outline btn-sm">
+                  ← {prevYear.year}
+                </Link>
+              )}
+            </div>
+            
+            {/* Hlavní nadpis */}
+            <div className="text-4xl text-primary font-bold">Ročník {yearData.year}</div>
+            
+            {/* Pravá navigace */}
+            <div className="mt-2 sm:mt-0 sm:w-32 flex justify-end">
+              {nextYear && (
+                <Link href={`/rocnik/${nextYear.year}`} className="btn btn-outline btn-sm">
+                  {nextYear.year} →
+                </Link>
+              )}
+            </div>
+          </div>
+          
           <div className="h-1 w-20 bg-primary mx-auto mb-8"></div>
           <div className="mx-auto w-full max-w-8xl">
             <p className="text-lg mb-8 text-justify whitespace-pre-line">{yearData.description}</p>
@@ -93,25 +116,29 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
         {/* Nový layout sekce */}
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 items-start">
           {/* Pravý sloupec: velká fotka - na mobilech první, na xl druhý */}
-          <div className="order-1 xl:order-2 xl:col-span-2 flex items-center justify-center">
-            <Image
-              src={heroImage}
-              alt={`Společné foto ročník ${yearData.year}`}
-              className="rounded-md cursor-pointer shadow-md hover:opacity-90 transition-opacity"
-              style={{objectFit: 'cover', width: '100%', maxWidth: '1000px', aspectRatio: '16/9'}}
-              onClick={() => {
-                setTeamPhoto({
-                  src: heroImage.src,
-                  alt: `Společné foto ročník ${yearData.year}`,
-                  width: 1200,
-                  height: 800
-                });
-                setLightboxOpen(true);
-              }}
-            />
-          </div>
+          {yearData.photo && (
+            <div className="order-1 xl:order-2 xl:col-span-2 flex items-center justify-center">
+              <Image
+                src={`/${yearData.year}/${yearData.photo}`}
+                alt={`Společné foto ročník ${yearData.year}`}
+                width={1200}
+                height={800}
+                className="rounded-md cursor-pointer shadow-md hover:opacity-90 transition-opacity"
+                style={{objectFit: 'cover', width: '100%', maxWidth: '1000px', aspectRatio: '16/9'}}
+                onClick={() => {
+                  setTeamPhoto({
+                    src: `/${yearData.year}/${yearData.photo}`,
+                    alt: `Společné foto ročník ${yearData.year}`,
+                    width: 1200,
+                    height: 800
+                  });
+                  setLightboxOpen(true);
+                }}
+              />
+            </div>
+          )}
           {/* Levý sloupec: karta - na mobilech druhá, na xl první */}
-          <div className="order-2 xl:order-1 bg-gray-50 p-6 rounded-lg shadow-md flex flex-col">
+          <div className={`order-2 xl:order-1 bg-gray-50 p-6 rounded-lg shadow-md flex flex-col ${!yearData.photo ? 'xl:col-span-3' : ''}`}>
             <h3 className="text-xl font-bold mb-3">Nejlepší hráči a soutěže</h3>
             {yearData.awards && yearData.awards.map((award, index) => (
               <p key={index} className="mb-2">

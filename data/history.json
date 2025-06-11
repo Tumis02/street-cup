@@ -116,42 +116,30 @@
   },
   {
     "year": "2023",
-    "title": "Rozšíření do dalších měst",
-    "description": "Turnaj se rozšířil do Brna a Ostravy s celkovou účastí 56 týmů. Celkovým vítězem se stal tým \"Street Kings\" z Brna.",
-    "slug": "rozsireni-do-dalsich-mest-2023",
+    "title": "20. ročník turnaje se uskutečnil opět v tělocvičně na Tyršáku a soutěžilo se o zbrusu nový pohár pro vítěze!",
+    "description": "Jubilejní 20. ročník se uskutečnil opět v hale Tyršova stadionu, která nás ochránila před hrátkami počasí. O zbrusu nový putovní pohár zabojovalo hned 14 týmů a celkem 51 hráček a hráčů! Potěšil nás příjezd kamarádů z Frýdku - Místku, kterých se letos zůčastnilo hned 12! Nejlepším z nich byl po loňském nezdaru ve finále tým Mladých pušek, který ve finále těsně zdolal Kelímky po prodloužení. Novinkou byla soutěž FAMILY SKILLS, ve které závodil rodič spolu s dítětem v basketbalových dovednostech. Pozornost celé haly tak na chvíli patřila těm nejmenším, kteří jinak fandí nám dospělým. Vítězkou první soutěže FAMILY SKILLS se stala Terezka Wiesnerová. Nejúspěšnější hráčkou se stala Martina Müllerová - Zelená z bronzového týmu Bolavé klouby a nejlepším hráčem byl vybrán nadějný Adrian Skála z týmu Libiňáků, kteří byli překvapením turnaje. Celá akce se uskutečnila za podpory TJ Šumperk, oddíl Basketbal, Ecupa s.r.o., MK Fruit s.r.o. a Pivovar Proud. Děkujeme!",
+    "slug": "20-rocni-turnaj-2023",
+    "photo": "IMG_20230729_203615.jpg",
     "awards": [
-      {
-        "winner": "Street Kings",
-        "category": "MVP muž"
-      },
-      {
-        "winner": "Anna Weberová",
-        "category": "MVP žena"
-      },
-      {
-        "winner": "Martin Schmidt",
-        "category": "Vítěz shoot-out"
-      }
+      { "winner": "Martina Müllerová - Zelená", "category": "nejlepší hráčka turnaje", "photo": "IMG_20230729_203342.jpg" },
+      { "winner": "Adrian Skála", "category": "nejlepší hráč turnaje", "photo": "IMG_20230729_203408.jpg"  },
+      { "winner": "Tereza Wiesnerová", "category": "FAMILY SKILLS" }
     ],
     "results": [
-      {"teamName": "Street Kings", "position": 1},
-      {"teamName": "Ballers", "position": 2},
-      {"teamName": "Městští sokoli", "position": 3},
-      {"teamName": "Noví hráči", "position": 4},
-      {"teamName": "Parkoví vlci", "position": 5},
-      {"teamName": "Městská garda", "position": 6},
-      {"teamName": "Parkoví tygři", "position": 7},
-      {"teamName": "Basketbaloví nadšenci", "position": 8},
-      {"teamName": "Street Warriors", "position": 9},
-      {"teamName": "Městští orli", "position": 10},
-      {"teamName": "Pražští draci", "position": 11},
-      {"teamName": "Parkoví medvědi", "position": 12},
-      {"teamName": "Street Legends", "position": 13},
-      {"teamName": "Městští jestřábi", "position": 14},
-      {"teamName": "Parkoví lvi", "position": 15},
-      {"teamName": "Street Masters", "position": 16},
-      {"teamName": "Městští orli B", "position": 17},
-      {"teamName": "Juniorské naděje", "position": 18}
+      { "teamName": "MLADÝ PUŠKY", "photo": "IMG_20230729_203242~2.jpg", "position": 1, "players": ["Renáta Kurečková", "Filip Tůma", "Šimon Tomeš"] },
+      { "teamName": "KELÍMCI", "photo": "IMG_20230729_203119.jpg", "position": 2, "players": ["Eva Klimková", "Petr Klimek", "Martin Vláčel"] },
+      { "teamName": "BOLAVÝ KLOUBY", "photo": "IMG_20230729_203024.jpg", "position": 3, "players": ["Martina Müllerová - Zelená", "Zdeněk Wiesner", "Marek Müller"] },
+      { "teamName": "NÁZEV JEŠTĚ VYBEREME", "photo": "IMG_20230729_202918_1.jpg", "position": 4, "players": ["Karolína Juránková", "Jiří Gonda", "Jan Skoumal", "Petr Václavek"] },
+      { "teamName": "KRTEČCI", "photo": "IMG_20230729_202828.jpg", "position": 5, "players": ["Katarína Kahánková", "Karolína Ševčíková", "Patrik Večerka", "Michal Enter"] },
+      { "teamName": "POZDNÍ SBĚR", "photo": "IMG_20230729_202748.jpg", "position": 6, "players": ["Kateřina Kozumplíková", "Petr Lehár", "Jaroslav Piatkevič", "Ondřej Leštinský"] },
+      { "teamName": "DEJAVU", "photo": "IMG_20230729_202705.jpg", "position": 7, "players": ["Kristýna Vojkovská", "Andrej Aleksashin", "Spencer Steel", "Pavel Olka"] },
+      { "teamName": "LIBIŇÁCI", "photo": "IMG_20230729_202620.jpg", "position": 8, "players": ["Tereza Trávníčková", "Melánia Skálová", "Andrian Skála", "Marian Skála"] },
+      { "teamName": "BRICHTA BOMBY", "photo": "IMG_20230729_202533.jpg", "position": 9, "players": ["Anežka Tesařová", "Jan Tesař", "Miroslav Poštulka"] },
+      { "teamName": "STARÉ DOBRÉ ČASY", "photo": "IMG_20230729_202455~2.jpg", "position": 10, "players": ["Veronika Šubrtová", "Karel Jílek", "Richard Růžička", "Matěj Kökörčin"] },
+      { "teamName": "DOPIJEM A JDEM", "photo": "IMG_20230729_202406.jpg", "position": 11, "players": ["Kateřina Nováková", "Jan Roško", "Michal Hájek", "Karel Špidla"] },
+      { "teamName": "LÍNÝ SVINĚ", "photo": "IMG-20230729-WA0014.jpg", "position": 12, "players": ["Jitka Jermanová", "Martin Kuchtík", "Ondřej Kuchtík", "Miroslav Kubíček"] },
+      { "teamName": "VÝSTŘEL DO PRÁZDNA", "photo": "IMG_20230729_202237.jpg", "position": 13, "players": ["Sára Tomešová", "Štěpán Rozsíval", "Patrik Sedláček", "Václav Smrčka"] },
+      { "teamName": "UNITED KOKOTS", "photo": "IMG_20230729_202152.jpg", "position": 14, "players": ["Tereza Vojkovská", "Tomáš Grézl", "Adam Roller"] }
     ]
   },
   {
@@ -159,6 +147,7 @@
     "title": "21. ročník s 10 tými a po delší době pod otevřeným nebem",
     "description": "21. ročník turnaje se uskutečnil na venkovním hřišti Tyršova stadionu, které v předchozích letech prošli rekonstrukcí. Počasí nám přálo, a tak jsme konečně mohli vyzkoušet nový povrch. Souboje probíhaly ve dvou skupinách po 5 týmech, kde se každý utkal s každým. O celkové umístění se pak hrálo do kříže mezi skupinami. \n Celkovými vítězi se stali Old stars, kteří ve finále porazili vítěze předchozího ročníku Mladý pušky (v lehce pozměněné sestavě). Doplňková soutěž FAMILY SKILLS pro naše nejmenší se těšila velkému zájmu a na hřišti se tak objevili i bývalí účastníci Street Cupu, kteří už aktivně nehrají, se svými ratolestmi. Bylo krásné vidět nasazení a radost v očích nastupující generace, i zkušenosti a dosud nezapomenuté dovednosti jejich rodičů. \n Celý turnaj se uskutečnil za podpory TJ Šumperk, oddíl Basketbal, MK Fruit s.r.o. a NaLok. Děkujeme!",
     "slug": "mezinarodni-ucast-2024",
+    "photo": "IMG_20240727_191950.jpg",
     "awards": [
       { "winner": "Zuzana Poštulková", "category": "nejlepší hráčka turnaje", "photo": "IMG_20240727_191533.jpg" },
       { "winner": "Ondřej Kugler", "category": "nejlepší hráč turnaje", "photo": "IMG_20240727_191505.jpg" },
