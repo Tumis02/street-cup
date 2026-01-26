@@ -9,7 +9,7 @@ const HistoryPage: React.FC = () => {
   return (
     <Layout>
       <Head>
-        <title>Kompletní historie turnaje | Street Cup 2025</title>
+        <title>Kompletní historie turnaje | Street Cup 2026</title>
         <meta name="description" content="Prohlédněte si kompletní historii basketbalového turnaje Street Cup od jeho začátků až po současnost." />
       </Head>
 

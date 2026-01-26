@@ -53,7 +53,7 @@ const AboutSection: React.FC = () => {
                 <ul className="space-y-4 text-left">
                   <li className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0"></div>
-                    <span>Datum konání: <strong>26.7.2025</strong></span>
+                    <span>Datum konání: <strong>1.8.2026</strong></span>
                   </li>
                   <li className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0"></div>

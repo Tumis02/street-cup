@@ -65,7 +65,7 @@ const Header: React.FC = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container-custom flex justify-between items-center py-4">
         <Link href="/">
-          <span className="text-2xl font-bold text-primary cursor-pointer">STREET CUP <span className="text-secondary">2025</span></span>
+          <span className="text-2xl font-bold text-primary cursor-pointer">STREET CUP <span className="text-secondary">2026</span></span>
         </Link>
 
         {/* Mobilní menu ikona */}
