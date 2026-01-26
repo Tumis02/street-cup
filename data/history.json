@@ -858,6 +858,33 @@
       { "teamName": "KRTEČCI", "position": 9, "players": ["Katarína Kahánková", "Zdeněk Večerka", "Patrik Večerka", "Michal Enter", "Jaroslav Piatkevič"], "photo": "IMG_20240727_190536.jpg" },
       { "teamName": "ZEDNÍCI", "position": 10, "players": ["Lucie Janíčková", "Marian Skála", "Adam Waiser", "Jan Debre"] }
     ]
+  },
+  {
+    "year": "2025",
+    "title": "Letošní ročník proběhl ve znamení návratů po letech! Vlivem počasí jsme se schovali opět do haly, vše probíhalo v pohodové a přátelské atmosféře a podpořit nás přišlo velké množství diváků!",
+    "description": "",
+    "slug": "rocnik-2025",
+    "photo": "IMG-20250728-WA0027.jpg",
+    "awards": [
+      { "winner": "Monika Olečková", "category": "nejlepší hráčka turnaje", "photo": "" },
+      { "winner": "Petr Václavek", "category": "nejlepší hráč turnaje", "photo": "" },
+      { "winner": "Mikuláš Gonda", "category": "FAMILY SKILLS", "photo": "" },
+      { "winner": "Zdeněk Wiesner", "category": "shoot-out", "photo": "" }
+    ],
+    "results": [
+      { "teamName": "MLADÝ PUŠKY", "position": 1, "players": ["Karolína Juránková", "Monika Olečková", "Filip Tůma", "Šimon Tomeš"] },
+      { "teamName": "OLD STARS", "position": 2, "players": ["Eva Klimková", "Petr Klimek", "Jan Skoumal", "Jiří Gonda"] },
+      { "teamName": "BOLAVÝ KLOUBY", "position": 3, "players": ["Martina Müllerová - Zelená", "Zdeněk Wiesner", "Marek Müller"] },
+      { "teamName": "UNITED KOKOTS", "position": 4, "players": ["Týna Vojkovská", "Adam Roller", "Jakub Nevrlý", "Tomáš Grézl"] },
+      { "teamName": "DOPIJEM A JDEM", "position": 5, "players": ["Kateřina Nováková", "Karel Špidla", "Michal Hájek", "Daniel Kubíček"] },
+      { "teamName": "PÁŤA JE RAKETA", "position": 6, "players": ["Katarína Kahánková", "Jakub Ševčík", "Ondřej Sehnal", "Andrei Aleksashin"] },
+      { "teamName": "SVIŽNÍ ŠNECI", "position": 7, "players": ["Adéla Roučová", "Matěj Kökörčin", "Marek Bednář", "Jan Harapát"] },
+      { "teamName": "MICINKY", "position": 8, "players": ["Míša Körnerová", "Lucie Janíčková", "David Körner", "Arsen Pilianskyi"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 9, "players": ["Martina Plháková", "Marek Šváb", "Radim Plhák", "Václav Bednarský"] },
+      { "teamName": "KOLOHNÁTI", "position": 10, "players": ["Zuzana Pavlů", "Petr Václavek", "Jaroslav Piatkevič", "Adam Hlavsa"] },
+      { "teamName": "SNĚHURKA A TŘÍ TRPASLÍCI", "position": 11, "players": ["Veronika Šubrtová", "Luboš Halfar", "Petr Lehár", "Štěpán Vizina"] },
+      { "teamName": "SKAUTÍCI", "position": 12, "players": ["Soňa Krestová", "Ondřej Kuchtík", "Tomáš Křikal", "Martin Kuchtík"] }
+    ]
   }
   
 ] 

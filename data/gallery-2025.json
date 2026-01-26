@@ -1,62 +1,1334 @@
 [
   {
-    "src": "/2025/foto_street_2025_1.jpg",
-    "alt": "Tým Street Kings",
+    "src": "/2025/0f32794a-45fd-47c5-91c2-5a62f33e0c5a.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_2.jpg",
-    "alt": "Finálový zápas",
+    "src": "/2025/1d37d507-d266-45bc-ac6c-e1612974a60b.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_3.jpg",
-    "alt": "Komentátorská kabina",
+    "src": "/2025/59c2649e-c930-401d-91fe-2a0d1d1ff20d.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_4.jpg",
-    "alt": "Slavnostní vyhlášení",
+    "src": "/2025/6b2ce917-e0cb-49e7-a1e1-50a3537e9ec8.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_5.jpg",
-    "alt": "Tým Parkoví vlci",
+    "src": "/2025/a004f6c6-72b1-4b03-816f-2b3bc900e263.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_6.jpg",
-    "alt": "Komentátorský tým",
+    "src": "/2025/de80a504-0362-4d52-80b8-a35178d3c074.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_7.jpg",
-    "alt": "Technické zázemí",
+    "src": "/2025/IMG-20250726-WA0001.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_8.jpg",
-    "alt": "Streamovací studio",
+    "src": "/2025/IMG-20250726-WA0002.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_9.jpg",
-    "alt": "Diváci na tribunách",
+    "src": "/2025/IMG-20250727-WA0000.jpg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   },
   {
-    "src": "/2025/foto_street_2025_10.jpg",
-    "alt": "Tým Street Kings",
+    "src": "/2025/IMG-20250728-WA0000.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0001.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0002.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0003.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0004.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0005.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0006.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0007.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0008.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0009.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0010.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0011.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0012.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0017.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0018.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0019.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0021.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0022.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0026.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0027.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0028.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0029.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0030.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0031.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0032.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0033.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0034.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0035.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0036.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0037.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0038.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0039.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0040.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0041.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0042.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0043.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0044.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0049.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0051.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0052 Copy.JPG",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0052.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG-20250728-WA0057.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0879.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0880.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0882.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0883.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0884.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0885.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0886.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0887.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0890.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0891.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0892.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0893.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0898.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0908.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0909.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0910.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0912.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0913.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0914.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0915.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0916.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0918.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0921.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0922.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0925.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0927.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0928.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0929.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0930.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0936.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0937.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0943.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0948.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0949.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0951.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0952.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0953.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_0956.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_124122992.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_125926315.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_125936597.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_125944619.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130132422.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130358537.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130416211.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130458361.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130605877.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130607536.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130614161.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_130633488.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_131533726.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_131536359.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_131540376.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_131603148.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_131616695.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_131629787.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_131638111.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_132108069.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_132110991.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_132112209.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_132144350.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_134520173.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_134535302.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_134550454.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140318.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140327.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140330.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140334.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140338.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140340.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140343.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140351.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140408.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140412.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140413.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140424255.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140432675.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140447495.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140839677.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_140845063.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_142624.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_142714.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_165316.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_165319.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_165326.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_165334.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_165337.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_173951209.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180613.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180625.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180639.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180722.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180727.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180729.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180732.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180734.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180800.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_180802.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_181904.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_184323.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_191915.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_20250726_194026.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4743.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4752.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4759.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4761.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4763.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4765.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4769.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4772.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4774.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4778.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4782.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4787.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4790.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4791.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4794.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4796.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4800.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4816.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4817.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4821.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4822.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4824.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4827.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4829.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4830.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4832.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4837.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4845.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4847.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_4850.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_6058.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_6065.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_6065.MP4",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_6067.HEIC",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/IMG_6067.MP4",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound1419659322369857799.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound1970453697944221522.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound1984867439798298212.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound2732107920439178952.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound382820725254462884.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound421271891915350321.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound4634739012702133121.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound6285237187349156139.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound6804891784476294509.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound6883568827311443220.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound7587924847305064593.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound7636106857915541780.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/inbound833377100924848562.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_153843910.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_155346260.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_162822464.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_162840880.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_162920139.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_162942575.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_164503098.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_164545302.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_164826468.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_164950261.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_165111203.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_170606053.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_171553900.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_171603467.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250726_173415585.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250727_004646471.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250727_004838087.MP.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/PXL_20250727_004839288.jpg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/received_1058629766252592.jpeg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/received_1174911917985793.jpeg",
+    "alt": "Street cup 2025",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "src": "/2025/received_1320585499412994.jpeg",
+    "alt": "Street cup 2025",
     "width": 1200,
     "height": 800
   }
-] 
+]
