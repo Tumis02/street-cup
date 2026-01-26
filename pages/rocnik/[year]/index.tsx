@@ -7,6 +7,7 @@ import Layout from '@/components/Layout';
 import historyData from '../../../data/history.json';
 import PhotoModal from '@/components/PhotoModal';
 import { PhotoData } from '@/components/PhotoModal';
+import GallerySection from '@/components/GallerySection';
 
 // Definice typu pro data ročníku
 interface YearData {
@@ -33,7 +34,7 @@ interface YearPageProps {
   yearData: YearData;
   prevYear: YearData | null;
   nextYear: YearData | null;
-  gallery: PhotoData[];
+  gallery: PhotoData[] | null;
 }
 
 
@@ -63,7 +64,7 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
       </Head>
 
       {/* Lightbox modal pro galerii */}
-      {selectedPhotoIndex !== null && (
+      {gallery && selectedPhotoIndex !== null && (
         <PhotoModal
           photos={gallery}
           currentIndex={selectedPhotoIndex}
@@ -156,8 +157,9 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
             <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={1}>
               {yearData.results
                 .sort((a, b) => a.position - b.position)
-                .map((result, idx) => (
-                  <li key={idx} style={{listStyleType: idx < 3 ? 'none' : 'decimal'}}>
+                .map((result, idx) => {
+                  const hasTeamName = result.teamName.trim() !== '';
+                  return   <li key={idx} style={{listStyleType: idx < 3 ? 'none' : 'decimal'}}>
                     {idx === 0 && <span>🥇 </span>}
                     {idx === 1 && <span>🥈 </span>}
                     {idx === 2 && <span>🥉 </span>}
@@ -168,21 +170,24 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
                       {result.teamName}
                     </span>
                     {result.players && result.players.length > 0 && (
-                      <span> ({result.players.join(', ')})</span>
+                      <span> {hasTeamName ? ' (' : ''}{result.players.join(', ')}{hasTeamName ? ')' : ''}</span>
                     )}
                   </li>
-                ))}
+                }                
+                
+                )}
             </ol>
           </div>
         </div>
 
-        {/* Fotogalerie */}
-        <div className="my-12">
+        {/* Fotogalerie z externích JSON souborů */}
+       {gallery && gallery.length > 0 &&
+       <div className="my-12">
           <h2 className="text-2xl font-bold mb-6 text-center">Fotogalerie</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {gallery.map((photo, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="aspect-square relative overflow-hidden bg-gray-100 rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                 onClick={() => setSelectedPhotoIndex(index)}
               >
@@ -197,6 +202,10 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
             ))}
           </div>
         </div>
+        }
+
+        {/* Fotogalerie z history.json - společné fotky ročníku */}
+        <GallerySection yearData={yearData} />
 
         {/* Navigace mezi ročníky */}
         <div className="mt-16 flex justify-between">
@@ -240,6 +249,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 // Tato funkce načítá data konkrétního ročníku
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const year = params?.year as string;
+  const yearInt = parseInt(year);
   
   // Seřazení dat podle roku vzestupně
   const sortedYears = [...historyData].sort((a, b) => parseInt(a.year) - parseInt(b.year));
@@ -255,9 +265,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const yearData = sortedYears[currentIndex];
   const prevYear = currentIndex > 0 ? sortedYears[currentIndex - 1] : null;
   const nextYear = currentIndex < sortedYears.length - 1 ? sortedYears[currentIndex + 1] : null;
-  
+  var galleryData = null;
   // Dynamicky načteme galerii podle roku
-  const galleryData = require(`../../../data/gallery-${year}.json`);
+  if(yearInt > 2011){
+    galleryData = require(`../../../data/gallery-${year}.json`);
+  }
   
   return {
     props: {

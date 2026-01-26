@@ -1,124 +1,816 @@
 [
- 
-  {
-    "year": "2020",
-    "title": "Virtuální ročník",
-    "description": "Kvůli pandemii proběhl turnaj online formou. Virtuální účast 25 týmů.",
-    "slug": "virtualni-rocnik-2020",
-    "awards": [
-      {
-        "winner": "Noví hráči",
-        "category": "MVP muž"
-      },
-      {
-        "winner": "Anna Schmidtová",
-        "category": "MVP žena"
-      },
-      {
-        "winner": "Tomáš Weber",
-        "category": "Vítěz shoot-out"
-      }
+ {
+    "year": "2000",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2000",
+    "photo": "",
+    "awards": [     
     ],
     "results": [
-      {"teamName": "Noví hráči", "position": 1},
-      {"teamName": "Street Kings", "position": 2},
-      {"teamName": "Parkoví vlci", "position": 3},
-      {"teamName": "Městská garda", "position": 4},
-      {"teamName": "Parkoví tygři", "position": 5},
-      {"teamName": "Basketbaloví nadšenci", "position": 6},
-      {"teamName": "Street Warriors", "position": 7},
-      {"teamName": "Městští orli", "position": 8},
-      {"teamName": "Pražští draci", "position": 9},
-      {"teamName": "Městští sokoli", "position": 10},
-      {"teamName": "Parkoví medvědi", "position": 11},
-      {"teamName": "Street Legends", "position": 12},
-      {"teamName": "Městští jestřábi", "position": 13},
-      {"teamName": "Parkoví lvi", "position": 14},
-      {"teamName": "Street Masters", "position": 15},
-      {"teamName": "Městští orli B", "position": 16}
+      { "teamName": "", "position": 1, "players": ["Martina Sládková", "Lukáš Blažej", "David Müller"] },
+      { "teamName": "", "position": 2, "players": ["Veronika Křenová", "Luboš Halfar", "Miroslav Osladil"] },
+      { "teamName": "", "position": 3, "players": ["Kateřina Nováková", "Dagmar Polášková", "Ondřej Vlček"] },
+      { "teamName": "", "position": 4, "players": ["Michaela Muroňová", "Karel Špidla", "Jan Roško"] },
+      { "teamName": "", "position": 5, "players": ["Petra Fischerová", "Karel Hošek", "Přemysl Hošek"] },
+      { "teamName": "", "position": 6, "players": ["Michaela Pospíšilová", "Martin Žáček", "Ondřej Vicher"] },
+      { "teamName": "", "position": 7, "players": ["Iva Žmolíková", "Marek Mayer", "Georgios Akritidis"] },
+      { "teamName": "", "position": 8, "players": ["Zuzana Biborová", "Pavel Andrés", "Vít Veselovský"] }
     ]
   },
   {
-    "year": "2021",
-    "title": "Návrat na hřiště",
-    "description": "Opětovný návrat k fyzickému turnaji s přísnými opatřeními. Účast 18 týmů.",
-    "slug": "navrat-na-hriste-2021",
+    "year": "2001",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2001",
+    "photo": "",
+    "awards": [      
+    ],
+    "results": [
+      { "teamName": "", "position": 1, "players": ["Kateřina Pajerová", "Jan Hecl", "Jiří Gonda"] },
+      { "teamName": "", "position": 2, "players": ["Andrea Němečková", "Ondřej Šich", "Václav Matura"] },
+      { "teamName": "", "position": 3, "players": ["Martina Sládková", "Štěpán Vizina", "Miroslav Horváth"] },
+      { "teamName": "", "position": 4, "players": ["Kateřina Nováková", "Luboš Halfar", "Petr Pavelka"] },
+      { "teamName": "", "position": 5, "players": ["Eva Zahradníková", "Michal Kubiš", "Lukáš Hemzal"] },
+      { "teamName": "", "position": 6, "players": ["Michaela Muroňová", "Marek Mayer", "Miroslav Osladil"] },
+      { "teamName": "", "position": 7, "players": ["Zuzana Biborová", "Georgios Akritidis", "Ondřej Vicher"] },
+      { "teamName": "", "position": 8, "players": ["Dagmar Polášková", "Ondřej Vlček", "Jaroslav Piatkevič"] },
+      { "teamName": "", "position": 9, "players": ["Veronika Křenová", "Petr Všetíček", "Pavel Hadámek"] },
+      { "teamName": "", "position": 10, "players": ["Michaela Petrášová", "Martin Škrott", "Roman Petráš"] },
+      { "teamName": "", "position": 11, "players": ["Lenka Hádková", "Michal Martykán", "Vít Novotný"] }
+    ]
+  },
+  {
+    "year": "2002",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2002",
+    "photo": "",
     "awards": [
       {
-        "winner": "Městští sokoli",
-        "category": "MVP muž"
+        "winner": "Kateřina Nováková, Petr Pavelka, Zdeněk Wiesner",
+        "category": "Nejlepší trojice turnaje"
+      }
+      
+    ],
+    "results": [
+      { "teamName": "", "position": 1, "players": ["Eva Petříková", "Jan Kratochvíl", "Josef Poštulka"] },
+      { "teamName": "", "position": 2, "players": ["Kateřina Nováková", "Marek Sedláček", "Tomáš Masopust", "Tomáš Hauser"] },
+      { "teamName": "", "position": 3, "players": ["Alexandra Čechová", "Zdeněk Wiesner", "Petr Doleček"] },
+      { "teamName": "", "position": 4, "players": ["Dagmar Polášková", "Petr Všetíček", "Vladimír Glocar"] },
+      { "teamName": "", "position": 5, "players": ["Šárka Ševčíková", "Josef Hřebíček", "Martin Medřický"] },
+      { "teamName": "", "position": 6, "players": ["Tereza Vorlová", "Petr Pavelka", "Petr Lehár"] },
+      { "teamName": "", "position": 7, "players": ["Andrea Němečková", "Karel Špidla", "Jan Skoumal"] },
+      { "teamName": "", "position": 8, "players": ["Michaela Muroňová", "David Müller", "Ivoš Žaitlik"] },
+      { "teamName": "", "position": 9, "players": ["Iva Žmolíková", "Georgios Akritidis", "Jaroslav Piatkevič"] },
+      { "teamName": "", "position": 10, "players": ["Pavlína Knířová", "Marek Müller", "Daniel Horký"] },
+      { "teamName": "", "position": 11, "players": ["Soňa Vlková", "Markéta Táborská", "Luboš Halfar"] },
+      { "teamName": "", "position": 12, "players": ["Michaela Heclová", "Michal Martykán", "Vít Novotný"] },
+      { "teamName": "", "position": 13, "players": ["Veronika Křenová", "Jiří Gonda", "Jan Hecl"] },
+      { "teamName": "", "position": 14, "players": ["Kamila Haltmarová", "Pavel Hadámek", "Miroslav Osladil"] },
+      { "teamName": "", "position": 15, "players": ["Lucie Hamalová", "Patrik Nguyen", "Roman Boldi"] },
+      { "teamName": "", "position": 16, "players": ["Eva Zahradníková", "Milan Boldi", "Jakub Rohovec"] }
+    ]
+  },
+  {
+    "year": "2003",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2003",
+    "photo": "",
+    "awards": [
+      
+    ],
+    "results": [
+      { "teamName": "", "position": 1, "players": ["Barbora Opravilová", "Kateřina Nováková", "Miroslav Ráček", "Radim Šíma"] },
+      { "teamName": "", "position": 2, "players": ["Eva Petříková", "Jan Kratochvíl", "Josef Poštulka"] },
+      { "teamName": "", "position": 3, "players": ["Veronika Křenová", "Zdeněk Wiesner", "Pavel Hadámek"] },
+      { "teamName": "", "position": 4, "players": ["Lenka Žižková", "Pavel Andrés", "Tomáš Andrés"] },
+      { "teamName": "", "position": 5, "players": ["Alexandra Čechová", "Jiří Gonda", "Michal Vašenda", "Ondřej Šich"] },
+      { "teamName": "", "position": 6, "players": ["Martina Sládková", "Michal Hájek", "Karel Špidla"] },
+      { "teamName": "", "position": 7, "players": ["Dagmar Polášková", "Ivoš Žaitlik", "Michal Kubiš"] },
+      { "teamName": "", "position": 8, "players": ["Iva Žmolíková", "Luboš Halfar", "Štěpán Vizina"] },
+      { "teamName": "", "position": 9, "players": ["Kateřina Eflerová", "Jan Roško", "Petr Sabol"] },
+      { "teamName": "", "position": 10, "players": ["Pavlína Knířová", "Petr Pavelka", "Daniel Horký"] },
+      { "teamName": "", "position": 11, "players": ["Andrea Němečková", "Jaroslav Piatkevič", "Jakub Rohovec"] },
+      { "teamName": "", "position": 12, "players": ["Zuzana Biborová", "Jiří Strnadel", "Jakub Smyček"] },
+      { "teamName": "", "position": 13, "players": ["Michale Muroňová", "Jakub Zimáček", "David Müller"] },
+      { "teamName": "", "position": 14, "players": ["Michaela Pospíšilová", "Jaroslav Dítě", "Martin Hawiger"] },
+      { "teamName": "", "position": 15, "players": ["Soňa Vlková", "Martin Vláčel", "Jiří Bernát"] },
+      { "teamName": "", "position": 16, "players": ["Eva Zahradníková", "Patrik Nguyen", "Roman Boldi"] },
+      { "teamName": "", "position": 17, "players": ["Lenka Pulterová", "Ondřej Vicher", "Milan Boldi"] },
+      { "teamName": "", "position": 18, "players": ["Michaela Petrášová", "Roman Petráš", "Martin Škrott"] }
+    ]
+  },
+  {
+    "year": "2004",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2004",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Ondřej Šich",
+        "category": "nejlepší hráč turnaje"
       },
       {
-        "winner": "Zuzana Weberová",
-        "category": "MVP žena"
+        "winner": "Anna Polášková",
+        "category": "Trestné hody"
       },
       {
-        "winner": "Jan Schmidt",
-        "category": "Vítěz shoot-out"
+        "winner": "Andrea Němečková",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Michal Hájek",
+        "category": "Smečování"
       }
     ],
     "results": [
-      {"teamName": "Městští sokoli", "position": 1},
-      {"teamName": "Noví hráči", "position": 2},
-      {"teamName": "Street Kings", "position": 3},
-      {"teamName": "Parkoví vlci", "position": 4},
-      {"teamName": "Městská garda", "position": 5},
-      {"teamName": "Parkoví tygři", "position": 6},
-      {"teamName": "Basketbaloví nadšenci", "position": 7},
-      {"teamName": "Street Warriors", "position": 8},
-      {"teamName": "Městští orli", "position": 9},
-      {"teamName": "Pražští draci", "position": 10},
-      {"teamName": "Parkoví medvědi", "position": 11},
-      {"teamName": "Street Legends", "position": 12},
-      {"teamName": "Městští jestřábi", "position": 13},
-      {"teamName": "Parkoví lvi", "position": 14},
-      {"teamName": "Street Masters", "position": 15},
-      {"teamName": "Městští orli B", "position": 16}
+      { "teamName": "", "position": 1, "players": ["Eva Petříková", "Ondřej Šich", "Petr Šich"] },
+      { "teamName": "", "position": 2, "players": ["Anna Polášková", "Radek Helekal", "Pavel Novák"] },
+      { "teamName": "", "position": 3, "players": ["Veronika Křenová", "Zdeněk Wiesner", "Petr Doleček"] },
+      { "teamName": "", "position": 4, "players": ["Jana Kozáková", "Jan Roško", "Michal Hájek"] },
+      { "teamName": "", "position": 5, "players": ["Kateřina Nováková", "Petr Kulich", "Marek Sedláček"] },
+      { "teamName": "", "position": 6, "players": ["Soňa Vlková", "Pavel Andrés", "Luboš Halfar"] },
+      { "teamName": "", "position": 7, "players": ["Šárka Ševčíková", "Jan Hecl", "Karel Špidla"] },
+      { "teamName": "", "position": 8, "players": ["Andrea Němečková", "Jan Kratochvíl", "Pavel Hadámek"] },
+      { "teamName": "", "position": 9, "players": ["Markéta Táborská", "Georgios Akritidis", "Jaroslav Piatkevič"] },
+      { "teamName": "", "position": 10, "players": ["Zuzana Biborová", "Jiří Strnadel", "Jaroslav Zesevič"] },
+      { "teamName": "", "position": 11, "players": ["Kateřina Vaculíková", "Jiří Gonda", "Jan Skoumal"] },
+      { "teamName": "", "position": 12, "players": ["Michaela Muroňová", "David Müller", "Ivoš Žaitlik", "Adam Vizina"] },
+      { "teamName": "", "position": 13, "players": ["Kateřina Eflerová", "Pavel Stejskal", "Petr Zámečník"] },
+      { "teamName": "", "position": 14, "players": ["Petra Varholová", "Lukáš Špička", "Jakub Rohovec"] }
+    ]
+  },
+  {
+    "year": "2005",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2005",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Kateřina Nováková",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Michal Kubiš",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Jan Kratochvíl",
+        "category": "Smečování"
+      }
+    ],
+    "results": [
+      { "teamName": "", "position": 1, "players": ["Kateřina Nováková", "Petr Kulich", "Radek Helekal", "Tomáš Kulich"] },
+      { "teamName": "", "position": 2, "players": ["Barbora Opravilová", "Jan Linhart", "Pavel Novák"] },
+      { "teamName": "", "position": 3, "players": ["Eva Petříková", "Jan Kratochvíl", "Josef Poštulka"] },
+      { "teamName": "", "position": 4, "players": ["Andrea Němečková", "Pavel Hadámek", "Zdeněk Wiesner"] },
+      { "teamName": "", "position": 5, "players": ["Soňa Vlková", "Pavel Pumprla", "Marek Müller"] },
+      { "teamName": "", "position": 6, "players": ["Michaela Kopečková", "Marek Sedláček", "Roman Černošek"] },
+      { "teamName": "", "position": 7, "players": ["Iva Žmolíková", "Karel Špidla", "Michal Hájek", "Roman Pumprla", "Petr Doleček"] },
+      { "teamName": "", "position": 8, "players": ["Alena Huňková", "Pavel Andrés", "Luboš Halfar"] },
+      { "teamName": "", "position": 9, "players": ["Alena Altmannová", "Ladislav Povolný", "Lukáš Rubecký"] },
+      { "teamName": "", "position": 10, "players": ["Kamila Haltmarová", "Jiří Gonda", "Jan Skoumal"] },
+      { "teamName": "", "position": 11, "players": ["Zuzana Golová", "Michal Kubiš", "Jan Hecl"] },
+      { "teamName": "", "position": 12, "players": ["Zuzana Biborová", "David Müller", "Adam Vizina", "Martin Medřický"] },
+      { "teamName": "", "position": 13, "players": ["Dagmar Polášková", "Petr Pavelka", "Petr Lehár"] },
+      { "teamName": "", "position": 14, "players": ["Eva Haltmarová", "Jakub Rohovec", "Jakub Podhorný"] },
+      { "teamName": "", "position": 15, "players": ["Naděžda Vuová", "Jan Kochwaser", "Zdeněk Židek"] },
+      { "teamName": "", "position": 16, "players": ["Barbora Skopcová", "David Bachroň", "Jan Kolařík"] }
+    ]
+  },
+  {
+    "year": "2006",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2006",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Peter Rerko",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Jitka Horáková",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Milena Steffanová",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Peter Rerko",
+        "category": "Smečování"
+      }
+    ],
+    "results": [
+      { "teamName": "", "position": 1, "players": ["Kateřina Nováková", "Petr Kulich", "Radek Helekal"] },
+      { "teamName": "", "position": 2, "players": ["Anna Sýkorová", "Veronika Sýkorová", "Martin Gotthardt", "Peter Rerko"] },
+      { "teamName": "", "position": 3, "players": ["Anna Polášková", "Milena Steffanová", "Josef Poštulka", "Jan Kratochvíl"] },
+      { "teamName": "", "position": 4, "players": ["Alena Altmannová", "Žaneta Rajsiglová", "Vladimír Povolný", "Lukáš Rubecký"] },
+      { "teamName": "", "position": 5, "players": ["Veronika Křenová", "Zdeněk Wiesner", "Jakub Heidler"] },
+      { "teamName": "", "position": 6, "players": ["Iva Žmolíková", "Marek Sedláček", "Ondřej Dusílek", "Tomáš Masopust"] },
+      { "teamName": "", "position": 7, "players": ["Zuzana Kruková", "Patrik Nguyen", "Pavel Kejha", "Ondřej Pokorný"] },
+      { "teamName": "", "position": 8, "players": ["Zuzana Gajdošíková", "Jakub Pajer", "Martin Vláčel"] },
+      { "teamName": "", "position": 9, "players": ["Jitka Horáková", "Pavel Pumprla", "Marek Müller"] },
+      { "teamName": "", "position": 10, "players": ["Kristýna Wolfová", "Jiří Gonda", "Jan Skoumal"] },
+      { "teamName": "", "position": 11, "players": ["Alena Huňková", "Ondřej Šich", "Jakub Rohovec"] },
+      { "teamName": "", "position": 12, "players": ["Petra Valentová", "Tomáš Brádler", "Petr Jeřábek"] },
+      { "teamName": "", "position": 13, "players": ["Pavlína Knířová", "Pavel Andrés", "Luboš Halfar"] },
+      { "teamName": "", "position": 14, "players": ["Kamila Haltmarová", "Štěpán Vizina", "Daniel Horký"] },
+      { "teamName": "", "position": 15, "players": ["Kateřina Eflerová", "Georgios Akritidis", "Milan Boldi"] },
+      { "teamName": "", "position": 16, "players": ["Eva Haltmarová", "Ondřej Leštinský", "Tomáš Bartl"] },
+      { "teamName": "", "position": 17, "players": ["Martina Zelená", "Aleš Teltcher", "Tomáš Havlíček"] },
+      { "teamName": "", "position": 18, "players": ["Monika Stoklasová", "Michal Skála", "Tomáš Grézl"] },
+      { "teamName": "", "position": 19, "players": ["Kateřina Kubíčková", "Ondřej Vávra", "Radek Peterka"] },
+      { "teamName": "", "position": 20, "players": ["Tereza Patíková", "Petr Šandera", "Michal Žluna"] }
+    ]
+  },
+  {
+    "year": "2008",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2008",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Marek Müller",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Kateřina Rotková",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Marek Sedláček",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Tomáš Mikoláš",
+        "category": "Smečování"
+      },
+      {
+        "winner": "Alena Huňková",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "ZKUŠENOST", "position": 1, "players": ["Alena Huňková", "Marek Stuchlý", "Jan Sitař"] },
+      { "teamName": "A VŮBEC", "position": 2, "players": ["Eva Petříková", "Josef Poštulka", "Jan Kratochvíl"] },
+      { "teamName": "NIC MOC", "position": 3, "players": ["Kateřina Nováková", "Petr Kulich", "Radek Helekal"] },
+      { "teamName": "FREESAS TEAM", "position": 4, "players": ["Martina Fridrichová", "Miroslav Fohler", "Marek Sedláček"] },
+      { "teamName": "SSS HADI", "position": 5, "players": ["Martina Zelená", "Marek Müller", "Ondřej Šich"] },
+      { "teamName": "DUŠANI", "position": 6, "players": ["Barbora Kuthanová", "Jiří Gonda", "Jan Skoumal"] },
+      { "teamName": "MALÍ VELCÍ", "position": 7, "players": ["Kateřina Rotková", "Georgios Akritidis", "Petr Houska"] },
+      { "teamName": "VETERÁNI", "position": 8, "players": ["Barbora Opravilová", "Jan Linhart", "Tomáš Mikoláš"] },
+      { "teamName": "KRÁCONI", "position": 9, "players": ["Veronika Kracíková", "Jakub Pajer", "Martin Vláčel"] },
+      { "teamName": "LENOŠI", "position": 10, "players": ["Andrea Němečková", "Tomáš Mikéska", "Ondřej Zatloukal"] },
+      { "teamName": "UNITED KOKOTS", "position": 11, "players": ["Aneta Kolářová", "Tomáš Grézl", "Adam Roller"] },
+      { "teamName": "ŠUM HO TAM", "position": 12, "players": ["Iva Žmolíková", "Pavel Andrés", "Luboš Halfar"] },
+      { "teamName": "RŮŽOVÁ SÍLA", "position": 13, "players": ["Renáta Horáková", "Radek Šír", "Šimon Žlotíř"] },
+      { "teamName": "RED HOTI", "position": 14, "players": ["Ondřej Pavelka", "Patrik Večerka", "Zdeněk Večerka"] },
+      { "teamName": "TEMENICE", "position": 15, "players": ["Hana Nétková", "Václav Urban", "Tomáš Nečas"] },
+      { "teamName": "SMRTÍCÍ KOMANDO", "position": 16, "players": ["Veronika Křenová", "Ivoš Žaitlik", "Petr Doleček"] }
+    ]
+  },
+  {
+    "year": "2009",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2009",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Milan Urban",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Kateřina Nováková",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Karel Špidla",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Milan Urban",
+        "category": "Smečování"
+      },
+      {
+        "winner": "Marek Müller",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "LOS BANDITOS", "position": 1, "players": ["Kateřina Nováková", "Petr Kulich", "Radek Helekal"] },
+      { "teamName": "KARLÍKOVI FRÝDEČÁCI", "position": 2, "players": ["Martina Sládková", "Michal Hájek", "Jan Jendrejovský", "Karel Špidla"] },
+      { "teamName": "Z DALEKA", "position": 3, "players": ["Kateřina Rotková", "Jan Leopold", "Milan Urban"] },
+      { "teamName": "JE TO MOŽNÝ?", "position": 4, "players": ["Eva Petříková", "Jan Kratochvíl", "Josef Poštulka"] },
+      { "teamName": "POKER FACE", "position": 5, "players": ["Kateřina Eflerová", "Pavel Andrés", "Petr Václavek"] },
+      { "teamName": "OJDIPÁČCI", "position": 6, "players": ["Jana Kozáková", "Jakub Pajer", "Martin Vláčel"] },
+      { "teamName": "JÁ, MÉ DRUHÉ JÁ A ČÍČA", "position": 7, "players": ["Andrea Němečková", "Michal Kubiš", "Zdeněk Wiesner"] },
+      { "teamName": "INKOGNITO", "position": 8, "players": ["Barbora Opravilová", "Eliška Lechnerová", "Jan Skoumal", "Patrik Večerka"] },
+      { "teamName": "SSS HADI", "position": 9, "players": ["Martina Zelená", "Marek Müller", "Ondřej Šich"] },
+      { "teamName": "UNITED KOKOTS", "position": 10, "players": ["Aneta Kolářová", "Tomáš Grézl", "Adam Roller"] },
+      { "teamName": "ABR TEAM", "position": 11, "players": ["Petra Valentová", "Jan Indra", "Tomáš Kugler"] },
+      { "teamName": "PRINCOVÉ A PRINCEZNA", "position": 12, "players": ["Zuzana Biborová", "Georgios Akritidis", "Jaroslav Piatkevič"] },
+      { "teamName": "ŠUP HO TAM", "position": 13, "players": ["Pavlína Knířová", "Petr Lehár", "Luboš Halfar"] },
+      { "teamName": "POULIČNÍ SMĚS", "position": 14, "players": ["Kateřina Fejklová", "Petr Titz", "Michal Milták"] }
+    ]
+  },
+  {
+    "year": "2010",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2010",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Marek Müller",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Tereza Kuthanová",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Jan Kratochvíl",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Karel Špidla",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Ondřej Leštinský",
+        "category": "Smečování"
+      },
+      {
+        "winner": "Marek Müller",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "LIGA VÝJIMEČNÝCH", "position": 1, "players": ["Tereza Kuthanová", "Jan Skoumal", "Jiří Gonda"] },
+      { "teamName": "LOS BANDITOS", "position": 2, "players": ["Kateřina Nováková", "Petr Kulich", "Roman Bednář"] },
+      { "teamName": "SSS HADI", "position": 3, "players": ["Martina Zelená", "Marek Müller", "Ondřej Šich"] },
+      { "teamName": "OJDIPÁČCI", "position": 4, "players": ["Iva Žmolíková", "Jakub Pajer", "Martin Vláčel"] },
+      { "teamName": "MAXIM TURBULENC", "position": 5, "players": ["Eva Petříková", "Ivo Prachař", "Josef Poštulka", "Jan Kratochvíl"] },
+      { "teamName": "NEUTUCHAJÍCÍ VESELÍ", "position": 6, "players": ["Veronika Křenová", "Zdeněk Wiesner", "Oldřich Kníř", "Tomáš Kugler"] },
+      { "teamName": "INKOGNITO", "position": 7, "players": ["Petra Valentová", "Patrik Večerka", "Jan Indra"] },
+      { "teamName": "BIG CHILLERS", "position": 8, "players": ["Zuzana Biborová", "Jan Roško", "Jiří Strnadel", "Petr Šandera"] },
+      { "teamName": "LÉTAJÍCÍ DOKTOR A JEHO PÁRKY", "position": 9, "players": ["Barbora Opravilová", "Jan Jendrejovský", "Michal Hájek", "Karel Špidla"] },
+      { "teamName": "POKER FACE", "position": 10, "players": ["Karolína Kuthanová", "Pavel Andrés", "Ondřej Leštinský"] },
+      { "teamName": "MLADÝ PIVA", "position": 11, "players": ["Renáta Horáková", "Matěj Juránek", "Jakub Nevrlý"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 12, "players": ["Renáta Kohoutová", "David Šíma", "Tomáš Nečas"] },
+      { "teamName": "PRINCOVÉ A PRINCEZNA", "position": 13, "players": ["Kateřina Eflerová", "Georgios Akritidis", "Jaroslav Piatkevič"] },
+      { "teamName": "ŠUP HO TAM", "position": 14, "players": ["Pavlína Knířová", "Luboš Halfar", "Petr Lehár"] },
+      { "teamName": "UNITED KOKOTS", "position": 15, "players": ["Aneta Kolářová", "Tomáš Grézl", "Adam Roller"] },
+      { "teamName": "POULIČNÍ SMĚS", "position": 16, "players": ["Kateřina Fejlková", "Kateřina Štafová", "Michal Milták", "Petr Titz"] }
+    ]
+  },
+  {
+    "year": "2011",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2011",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Ondřej Zatloukal",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Barbora Opravilová",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Marek Müller",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Shoot-out"
+      },
+      {
+        "winner": "Ondřej Šich",
+        "category": "Hráč s největší smůlou v turnaji"
+      }
+    ],
+    "results": [
+      { "teamName": "LOS BANDITOS", "position": 1, "players": ["Kateřina Nováková", "Petr Kulich", "Radek Helekal"] },
+      { "teamName": "JISKRA", "position": 2, "players": ["Gabriela Burzová", "Ondřej Zatloukal", "Tomáš Mikoláš", "Tomáš Chlebek"] },
+      { "teamName": "POSLEDNÍ", "position": 3, "players": ["Petra Valentová", "Jan Skoumal", "Zdeněk Wiesner"] },
+      { "teamName": "OJDIPÁČCI", "position": 4, "players": ["Iva Žmolíková", "Jakub Pajer", "Martin Vláčel"] },
+      { "teamName": "MAXIM TURBULENC", "position": 5, "players": ["Eva Petříková", "Josef Poštulka", "Jan Kratochvíl"] },
+      { "teamName": "NÁBŘEŽKA", "position": 6, "players": ["Lucie Vavračová", "Jakub Vodák", "Petr Kačmár", "Václav Blechta"] },
+      { "teamName": "LOS PAPAS", "position": 7, "players": ["Barbora Opravilová", "Jan Roško", "Michal Hájek", "Karel Špidla"] },
+      { "teamName": "ŠUP HO TAM", "position": 8, "players": ["Pavlína Knířová", "Luboš Halfar", "Georgios Akritidis", "Jaroslav Piatkevič"] },
+      { "teamName": "SSS HADI", "position": 9, "players": ["Martina Zelená", "Marek Müller", "Ondřej Šich"] },
+      { "teamName": "UNITED KOKOTS", "position": 10, "players": ["Aneta Kolářová", "Tomáš Grézl", "Adam Roller"] },
+      { "teamName": "POULIČNÍ SMĚS", "position": 11, "players": ["Kateřina Fejlková", "Michal Milták", "Petr Titz"] },
+      { "teamName": "MLADÝ PIVA", "position": 12, "players": ["Renára Horáková", "Matěj Juránek", "Jakub Nevrlý"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 13, "players": ["Markéta Volková", "David Šíma", "Jan Indra"] },
+      { "teamName": "KAMEL TEAM", "position": 14, "players": ["Kateřina Štafová", "Michaela Poláková", "Zuzana Tejkalová", "Miroslav Kubíček"] }
+    ]
+  },
+  {
+    "year": "2012",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2012",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Jiří Gonda",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Tereza Kuthanová",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Jan Leopold",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Marek Müller",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Jakub Nevrlý",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "JISKRA", "position": 1, "players": ["Gabriela Burzová", "Pavel Novák", "Tomáš Mikoláš"] },
+      { "teamName": "OJDIPÁČCI", "position": 2, "players": ["Iva Žmolíková", "Jakub Pajer", "Zdeněk Wiesner"] },
+      { "teamName": "XSTREAM BALLERS", "position": 3, "players": ["Veronika Kracíková", "Lukáš Onderka", "Jan Leopold"] },
+      { "teamName": "SPARŤANSKÁ ŠLECHTA", "position": 4, "players": ["Barbora Kuthanová", "Pavel Andrés", "Petr Václavek"] },
+      { "teamName": "MAGIC EYES", "position": 5, "players": ["Martina Zelená", "Petr Šich", "Marek Müller"] },
+      { "teamName": "LOS KOMATOS", "position": 6, "players": ["Kateřina Nováková", "Petr Kulich", "Patrik Večerka"] },
+      { "teamName": "BITKAŘI", "position": 7, "players": ["Barbora Ondrejková", "Tomáš Chlebek", "Michal Krhovský", "Ota Baďura"] },
+      { "teamName": "FOR FUN", "position": 8, "players": ["Eva Petříková", "Kateřina Rotková", "Jakub Nevrlý", "Jan Staněk"] },
+      { "teamName": "BÖDÄ", "position": 9, "players": ["Tereza Kuthanová", "Jan Skoumal", "Jiří Gonda"] },
+      { "teamName": "LOS PAPAS", "position": 10, "players": ["Zuzana Biborová", "Jan Roško", "Michal Hájek", "Karel Špidla"] },
+      { "teamName": "ZMETCI", "position": 11, "players": ["Petra Leštinská", "Ondřej Kuchtík", "Miroslav Kubíček", "Ondřej Leštinský"] },
+      { "teamName": "COACH CARTER TÝM", "position": 12, "players": ["Kateřina Purová", "Ondřej Mrázek", "Marek Smička", "Martin Kolář"] },
+      { "teamName": "JANČÍME", "position": 13, "players": ["Veronika Křenová", "Jan Indra", "Jakub Skoumal"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 14, "players": ["Markéta Volková", "David Šíma", "Radim Plhák"] }
+    ]
+  },
+  {
+    "year": "2013",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2013",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Martin Vláčel",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Eva Petříková",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Jan Kratochvíl",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Pavel Andrés",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Ondřej Leštinský",
+        "category": "Smečování"
+      },
+      {
+        "winner": "Luboš Halfar",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "INVALIDI", "position": 1, "players": ["Kateřina Nováková", "Ondřej Zatloukal", "Radek Helekal"] },
+      { "teamName": "KLÍĎO PÍĎO", "position": 2, "players": ["Petra Valentová", "Jiří Gonda", "Jan Skoumal", "Jan Kratochvíl"] },
+      { "teamName": "SSS HADI", "position": 3, "players": ["Martina Zelená", "Ondřej Šich", "Marek Müller"] },
+      { "teamName": "EXCAMPERS", "position": 4, "players": ["Kateřina Rotková", "Jan Leopold", "Vojtěch Novotný"] },
+      { "teamName": "NABUŠENÝ BICEPSY", "position": 5, "players": ["Eva Petříková", "Ondřej Kuchtík", "Martin Kuchtík", "Jaroslav Kašpárek"] },
+      { "teamName": "OJDIPÁČCI", "position": 6, "players": ["Iva Žmolíková", "Jakub Pajer", "Martin Vláčel"] },
+      { "teamName": "SLÁVA SPARTĚ", "position": 7, "players": ["Barbora Bubeníková", "Pavel Andrés", "Petr Václavek", "Zdeněk Wiesner"] },
+      { "teamName": "POULIČNÍ SMĚS", "position": 8, "players": ["Zuzana Tejkalová", "Michal Milták", "Petr Titz", "Tomáš Kvasničák"] },
+      { "teamName": "ZMETCI", "position": 9, "players": ["Petra Leštinská", "Miroslav Kubíček", "Ondřej Leštinský"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 10, "players": ["Klára Bargelová", "David Šíma", "Radim Plhák"] },
+      { "teamName": "UNITED KOKOTS", "position": 11, "players": ["Kristýna Kučová", "Adam Roller", "Tomáš Grézl"] },
+      { "teamName": "ŠUP HO TAM", "position": 12, "players": ["Pavlína Knířová", "Luboš Halfar", "Vladimír Glocar"] }
+    ]
+  },
+  {
+    "year": "2014",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2014",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Jan Skoumal",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Martina Zelená",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Tereza Kuthanová",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Marek Müller",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Ondřej Leštinský",
+        "category": "Smečování"
+      },
+      {
+        "winner": "Jiří Gonda",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "INVALIDI", "position": 1, "players": ["Kateřina Nováková", "Ondřej Zatloukal", "Petr Kulich", "Radek Helekal"] },
+      { "teamName": "KRUTOPŘÍSŇÁCI", "position": 2, "players": ["Tereza Kuthanová", "Jiří Gonda", "Jan Skoumal"] },
+      { "teamName": "KLÍĎO PÍĎO", "position": 3, "players": ["Petra Valentová", "Michaela Dlouhá", "Pavel Novák", "Tomáš Mikoláš"] },
+      { "teamName": "XBALLERS", "position": 4, "players": ["Markéta Kotyrová", "Jana Brožková", "Aleš Dědek", "Patrik Nguyen"] },
+      { "teamName": "EXCAMPERS", "position": 5, "players": ["Kateřina Rotková", "Jan Leopold", "Vojtěch Novotný"] },
+      { "teamName": "HADI S ČÍČOU", "position": 6, "players": ["Martina Zelená", "Zdeněk Wiesner", "Marek Müller"] },
+      { "teamName": "POULIČNÍ SMĚS", "position": 7, "players": ["Jitka Malinová", "Petr Titz", "Tomáš Brázda", "Tomáš Zdražil"] },
+      { "teamName": "STREET FOR FUN", "position": 8, "players": ["Zuzana Vavříková", "Karel Špidla", "Jakub Nevrlý", "Daniel Kubíček"] },
+      { "teamName": "ZMETCI", "position": 9, "players": ["Petra Leštinská", "Miroslav Kubíček", "Ondřej Kuchtík", "Ondřej Leštinský"] },
+      { "teamName": "ŠUP HO TAM", "position": 10, "players": ["Pavlína Knířová", "Petr Lehár", "Luboš Halfar"] },
+      { "teamName": "NA POSLEDNÍ CHVÍLI", "position": 11, "players": ["Soňa Vlková", "Michal Enter", "Tomáš Nečas"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 12, "players": ["Adéla Válková", "David Šíma", "Radim Plhák"] },
+      { "teamName": "ATLETI", "position": 13, "players": ["Renáta Horáková", "Tomáš Křikal", "Tomáš Vykydal", "Marek Smička"] },
+      { "teamName": "OJDI KOKOTS", "position": 14, "players": ["Iva Žmolíková", "Jakub Pajer", "Adam Roller", "Martin Vláčel"] }
+    ]
+  },
+  {
+    "year": "2015",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2015",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Lukáš Onderka",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Kateřina Rotková",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Jan Skoumal",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Šimon Tomeš",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Karel Špidla",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "XBALLERS", "position": 1, "players": ["Petra Valentová", "Lukáš Onderka", "Patrik Nguyen", "Aleš Dědek"] },
+      { "teamName": "OJDIPÁČCI", "position": 2, "players": ["Karolína Kuthanová", "Martin Vláčel", "Josef Kresta", "Jakub Pajer"] },
+      { "teamName": "HADI A SSSOŇA", "position": 3, "players": ["Soňa Vlková", "Marek Müller", "Ondřej Šich"] },
+      { "teamName": "INVALIDI", "position": 4, "players": ["Kateřina Nováková", "Ondřej Zatloukal", "Petr Kulich", "Radek Helekal"] },
+      { "teamName": "KRUTOPŘÍSŇÁCI", "position": 5, "players": ["Tereza Kuthanová", "Jan Skoumal", "Jiří Gonda"] },
+      { "teamName": "AMIGOS", "position": 6, "players": ["Zuzana Handlová", "Renata Fialová", "Radek Vévoda", "Miroslav Kubíček"] },
+      { "teamName": "POZDNÍ SBĚR", "position": 7, "players": ["Pavla Gotthardtová", "Zdeněk Wiesner", "Jaroslav Piatkevič"] },
+      { "teamName": "EXCAMPERS", "position": 8, "players": ["Kateřina Rotková", "Jan Leopold", "Vojtěch Novotný", "Jan Veselý"] },
+      { "teamName": "UNITED KOKOTS", "position": 9, "players": ["Eva Petříková", "Tomáš Grézl", "Adam Roller", "Petr Klimek"] },
+      { "teamName": "RISK BUSINESS", "position": 10, "players": ["Petra Leštinská", "Ondřej Leštinský", "Jaromír Březina"] },
+      { "teamName": "RUMCACA", "position": 11, "players": ["Zuzana Vavříková", "Karel Špidla", "Tomáš Babka", "Jakub Nevrlý", "Daniel Kubíček"] },
+      { "teamName": "FEŠÁCI", "position": 12, "players": ["Šárka Plhalová", "Filip Tůma", "Šimon Tomeš"] },
+      { "teamName": "ROCK 'N ROLL", "position": 13, "players": ["Kristýna Turnerová", "Martin Gotthardt", "Michal Enter"] },
+      { "teamName": "PAPUČÁCI", "position": 14, "players": ["Barbora Žiaková", "Jakub Němec", "Jan Linhart"] }
+    ]
+  },
+  {
+    "year": "2016",
+    "title": "",
+    "description": "",
+    "slug": "rocnik-2016",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Renata Fialová",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Renata Fialová",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "WAY BACK", "position": 1, "players": ["Kateřina Nováková", "Ondřej Zatloukal", "Petr Kulich", "Martin Gotthardt"] },
+      { "teamName": "SSS HADI", "position": 2, "players": ["Martina Zelená", "Ondřej Šich", "Marek Müller"] },
+      { "teamName": "POZDNÍ SBĚR", "position": 3, "players": ["Martina Sládková", "Zdeněk Wiesner", "Jaroslav Piatkevič"] },
+      { "teamName": "XBALLERS 4 FUN", "position": 4, "players": ["Petra Valentová", "Jan Veselý", "Jan Kefurt", "Aleš Dědek"] },
+      { "teamName": "RYTÍŘI XXL", "position": 5, "players": ["Renáta Horáková", "Antonín Kurečka", "Martin Kuchtík", "Ondřej Kuchtík"] },
+      { "teamName": "RIVIÉRA, TOČNA", "position": 6, "players": ["Petra Nováková", "Vojtěch Pícha", "Adam Zezula", "Václav Mojžíšek"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 7, "players": ["Leona Vicencová", "David Šíma", "Radim Plhák", "Jaromír Březina"] },
+      { "teamName": "AMIGOS", "position": 8, "players": ["Zuzana Handlová", "Renata Fialová", "Radek Vévoda", "Miroslav Kubíček"] },
+      { "teamName": "ŠPK", "position": 9, "players": ["Vendula Kubíčková", "Daniel Kubíček", "Karel Špidla", "Martin Vláčel"] },
+      { "teamName": "KRUTOPŘÍSŇÁCI", "position": 10, "players": ["Tereza Kuthanová", "Jiří Gonda", "Jan Skoumal"] },
+      { "teamName": "UNITED KOKOTS", "position": 11, "players": ["Martin Coufal", "Tomáš Grézl", "Adam Roller"] },
+      { "teamName": "PIŠKOT SQUAD", "position": 12, "players": ["Sára Tomešová", "Šimon Tomeš", "Filip Tůma", "Ondřej Kugler"] }
+    ]
+  },
+  {
+    "year": "2017",
+    "title": "Letos trošku netradičně s 15 týmy ve třech skupinách, v krásném počasí a na venkovním hřišti Tyršova stadionu!",
+    "description": "Konečně nám přálo počasí a zahráli jsme si zase na venkovním hřišti Tyršova stadionu! A počasí nám opravdu přálo - na sluníčku jsme se pekli od samého poledne, nápoje tekly proudem a sprcha vytvořená z venkovní hadice pomáhala chladit naše přehřáté těla. Venku je to super, jen to sluníčko bere spoustu energie navíc. Ale přišli skvělí diváci, kteří obsadili travnatou plochu a snažili se svou podporou nabíjet hráče energií co to šlo. V netradičním rozložení do 3 skupin po 5 týmech byl každý zápas ve skupině velmi důležitý! Jenom vítězové skupin si totiž vybojovali právo hrát o medaile! Na nejcennější nakonec dosáhli Ojdypáčci ve složení Krestovi a Martin Vláčel, stříbrní skončili Krutopřísňáci a bronz pro sebe získali hosté z Prostějova.  Celý turnaj se nesl ve znamení skvělé přátelské atmosféry a určitě tomu napomohl i velký divácký zájem. Moc si vaší podpory vážíme!",
+    "slug": "rocnik-2017",
+    "photo": "",
+    "awards": [
+      {
+        "winner": "Martin Vláčel",
+        "category": "nejlepší hráč turnaje"
+      },
+      {
+        "winner": "Tereza Kuthanová",
+        "category": "nejlepší hráčka turnaje"
+      },
+      {
+        "winner": "Jaroslav Piatkevič",
+        "category": "Trestné hody"
+      },
+      {
+        "winner": "Pavel Andrés",
+        "category": "Trojky"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Shoot-out"
+      }
+    ],
+    "results": [
+      { "teamName": "OJDIPÁČCI", "position": 1, "players": ["Soňa Krestová", "Josef Kresta", "Martin Vláčel"] },
+      { "teamName": "KRUTOPŘÍSŇÁCI", "position": 2, "players": ["Tereza Kuthanová", "Jiří Gonda", "Jan Skoumal"] },
+      { "teamName": "PV BALLERS", "position": 3, "players": ["Renata Fialová", "Jiří Fiala", "Karel Truneček", "Jan Vařeka"] },
+      { "teamName": "POZDNÍ SBĚR", "position": 4, "players": ["Pavla Gotthardtová", "Zdeněk Wiesner", "Jaroslav Piatkevič"] },
+      { "teamName": "LOS BANDITOS", "position": 5, "players": ["Kateřina Nováková", "Barbora Žiaková", "Petr Kulich", "Ondřej Zatloukal"] },
+      { "teamName": "LÍNÝ SVINĚ", "position": 6, "players": ["Zuzana Handlová", "Ondřej Šich", "Miroslav Kubíček"] },
+      { "teamName": "MVP TEAM", "position": 7, "players": ["Dominika Máchová", "Radka Štěpánková", "Roman Hořejš", "Vojtěch Pýcha"] },
+      { "teamName": "DEEZ NUTS", "position": 8, "players": ["Sára Tomešová", "Šimon Tomeš", "Jaromír Březina", "Štěpán Rozsíval"] },
+      { "teamName": "SUPREME TEAM", "position": 9, "players": ["Veronika Kubíčková", "Vojtěch Smrčka", "Lukáš Zajíc", "Viktor Vašat"] },
+      { "teamName": "NA POHODU", "position": 10, "players": ["Petra Leštinská", "Antonín Kurečka", "Ondřej Kuchtík", "Ondřej Leštinský"] },
+      { "teamName": "HOĎ A BĚŽ", "position": 11, "players": ["Martina Plháková", "David Šíma", "Radim Plhák"] },
+      { "teamName": "BLACK&WHITE", "position": 12, "players": ["Natálie Jurenková", "Tomáš Smejkal", "Filip Turek", "Patrik Sedláček"] },
+      { "teamName": "SKAUTI", "position": 13, "players": ["Klára Šimková", "Jan Suchomel", "Ondřej Hampl", "Martin Kuchtík"] },
+      { "teamName": "ŠUP HO TAM", "position": 14, "players": ["Pavlína Knířová", "Luboš Halfar", "Pavel Andrés", "Petr Lehár"] },
+      { "teamName": "RIVIÉRA, TOČNA", "position": 15, "players": ["Petra Nováková", "Vojtěch Pícha", "Adam Zezula"] }
+    ]
+  },
+  {
+    "year": "2019",
+    "title": "Po roce pauzy, v tělocvičně a v komornější sestavě 8 týmů, takový byl 18.ročník Street Cupu!",
+    "description": "Po roční odmlce jsme se zase vrátili do haly Tyršova stadionu s 18. ročníkem Street Cupu. Neuvěřitelné! Street Cupu už je plnoletý! Účast letos byla sice nižší, ale zato jsme si pořádně zahráli každej s každým, takže na konci nás bolely nohy úplně všechny! Dobrá nálada panovala a všichni si setkání po roční pauze opravdu užívali. Na vítězství dosáhl tým Mladých pušek ve složení Kurečkovi, Šimon Tomeš a Filip Tůma, kteří si vychutnali své premiérové prvenství v turnaji. Nejlepšími hráči byli dle hlasů hráčů a diváků zvoleni Šimon Tomeš a Zuzka Handlová. Celý turnaj se uskutečnil za podpory TJ Šumperk, oddíl Basketbal, Ecupa s.r.o. a WOOX s.r.o. Děkujeme!",
+    "slug": "rocnik-2019",
+    "photo": "IMG_20190812_152038.jpg",
+    "awards": [
+      {
+        "winner": "Šimon Tomeš",
+        "category": "MVP muž",
+        "photo": "IMG_20190812_151944.jpg"
+      },
+      {
+        "winner": "Zuzana Handlová",
+        "category": "MVP žena",
+        "photo": "IMG_20190812_151916.jpg"
+      },
+      {
+        "winner": "Tereza Kuthanová",
+        "category": "Trestné hody",
+        "photo": "IMG_20190812_145405.jpg"
+      },
+      {
+        "winner": "Šimon Tomeš",
+        "category": "Trojky",
+        "photo": "IMG_20190812_145438.jpg"
+      },
+      {
+        "winner": "Petr Klimek",
+        "category": "Vítěz shoot-out",
+        "photo": "IMG_20190812_145512.jpg"
+      }
+    ],
+    "results": [
+      { "teamName": "MLADÝ PUŠKY", "position": 1, "players": ["Renáta Kurečková", "Antonín Kurečka", "Filip Tůma", "Šimon Tomeš"], "photo": "IMG_20190812_151328.jpg" },
+      { "teamName": "COŽE", "position": 2, "players": ["Kateřina Nováková", "Soňa Krestová", "Josef Kresta", "Petr Kulich", "Jakub Nevrlý"], "photo": "IMG_20190812_151229.jpg" },
+      { "teamName": "KRUTOPŘÍSŇÁCI", "position": 3, "players": ["Tereza Kuthanová", "Jiří Gonda", "Jan Skoumal"], "photo": "IMG_20190812_151006.jpg" },
+      { "teamName": "BALL HANDLERS", "position": 4, "players": ["Zuzana Handlová", "Ondřej Šich", "Marek Müller"], "photo": "IMG_20190812_150835.jpg" },
+      { "teamName": "PE3CI", "position": 5, "players": ["Eva Klimková", "Petr Klimek", "Petr Václavek", "Jakub Nevrlý"], "photo": "IMG_20190812_150806.jpg" },
+      { "teamName": "SYPAČI", "position": 6, "players": ["Kateřina Kvapilová", "Jan Tesař", "Miroslav Poštulka", "Marek Vácha"], "photo": "IMG_20190812_150202.jpg" },
+      { "teamName": "BYE BYE", "position": 7, "players": ["Zuzana Pavlů", "Vendula Kubíčková", "Daniel Kubíček", "Matěj Káňa", "Karel Špidla"], "photo": "IMG_20190812_145648.jpg" },
+      { "teamName": "SNĚHURKA A DVA TRPASLÍCI", "position": 8, "players": ["Veronika Šubrtová", "Luboš Halfar", "Petr Lehár"], "photo": "IMG_20190812_145621.jpg" }
     ]
   },
   {
     "year": "2022",
-    "title": "První ročník Street Cup",
-    "description": "První ročník pod novým názvem se konal v Praze s účastí 24 týmů. Vítězem se stal tým \"Ballers\" z Prahy.",
-    "slug": "prvni-rocnik-street-cup-2022",
+    "title": "Obnovená tradice naše turnaje po covidové pauze přilákala hned 12 týmů!",
+    "description": "Po tříleté pauze způsobené pandemií Covidu jsme obnovili tradiční setkávání pod bezednými koši v polovině prázdnin! Turnaj se těšil velkému zájmu a přišlo hned 12 týmů s celkem 42 hráči! Z atmosféry bylo znát, že si všichni setkání užívají, i když jsme kvůli nepřízni počasí zůstali v tělocvičně. Dorazilo velké množství diváků a panovala skvělá nálada. Po litém boji ve finále nakonec zvítězili Bolavé klouby ve složení Müllerovi a Wiesner, kteří v napínavém finále porazili Mladý pušky. Letos poprvé se uskutěčnila doplňková soutěž pro naše nejmenší, kterou si vzala na starost Dáda Polášková a Renča Kurečková. O poutavé výkony našich nejmenších nebyla nouze. Dovednostní soutěž vyhrála Zuzka Wiesnerová a nejlepším smečařem byl vyhlášen čtyřletý Ondra Kulich. Celý turnaj se uskutečnil za podpory TJ Šumperk, oddíl Basketbal, Ecupa s.r.o., MK Fruit s.r.o. a Pivovar Zlosyn. Děkujeme!",
+    "slug": "rocnik-2022",
+    "photo": "IMG_20220730_200756.jpg",
     "awards": [
       {
-        "winner": "Ballers",
-        "category": "MVP muž"
+        "winner": "Adrian Skála",
+        "category": "MVP muž",
+        "photo": "IMG_20220730_200557 – kopie.jpg"
       },
       {
-        "winner": "Eva Schmidtová",
-        "category": "MVP žena"
+        "winner": "Anežka Tesařová",
+        "category": "MVP žena",
+        "photo": "IMG_20220730_200625.jpg"
       },
       {
-        "winner": "Tomáš Weber",
-        "category": "Vítěz shoot-out"
+        "winner": "Šimon Tomeš",
+        "category": "Trestné hody",
+        "photo": "IMG_20220730_200313.jpg"
+      },
+      {
+        "winner": "Šimon Tomeš",
+        "category": "Trojky",
+        "photo": "IMG_20220730_200313.jpg"
+      },
+      {
+        "winner": "Zdeněk Wiesner",
+        "category": "Shoot-out",
+        "photo": "IMG_20220730_200347.jpg"
+      },
+      {
+        "winner": "Ondřej Kulich",
+        "category": "Smečař",
+        "photo": "IMG_20220730_200517.jpg"
+      },
+      {
+        "winner": "Zuzana Wiesnerová",
+        "category": "Mini street-cup",
+        "photo": "IMG_20220730_175312.jpg"
       }
     ],
     "results": [
-      {"teamName": "Ballers", "position": 1},
-      {"teamName": "Městští sokoli", "position": 2},
-      {"teamName": "Noví hráči", "position": 3},
-      {"teamName": "Street Kings", "position": 4},
-      {"teamName": "Parkoví vlci", "position": 5},
-      {"teamName": "Městská garda", "position": 6},
-      {"teamName": "Parkoví tygři", "position": 7},
-      {"teamName": "Basketbaloví nadšenci", "position": 8},
-      {"teamName": "Street Warriors", "position": 9},
-      {"teamName": "Městští orli", "position": 10},
-      {"teamName": "Pražští draci", "position": 11},
-      {"teamName": "Parkoví medvědi", "position": 12},
-      {"teamName": "Street Legends", "position": 13},
-      {"teamName": "Městští jestřábi", "position": 14},
-      {"teamName": "Parkoví lvi", "position": 15},
-      {"teamName": "Street Masters", "position": 16}
+      { "teamName": "BOLAVÉ KLOUBY", "position": 1, "players": ["Martina Müllerová - Zelená", "Zdeněk Wiesner", "Marek Müller"], "photo": "IMG_20220730_200041.jpg" },
+      { "teamName": "MLADÝ PUŠKY", "position": 2, "players": ["Renáta Kurečková", "Filip Tůma", "Šimon Tomeš"] , "photo": "IMG_20220730_200142 – kopie.jpg"},
+      { "teamName": "OLD STARS", "position": 3, "players": ["Eva Klimková", "Petr Klimek", "Jiří Gonda", "Martin Vláčel"] , "photo": "IMG_20220730_200220 – kopie.jpg"},
+      { "teamName": "DOUBLE DOUBLE", "position": 4, "players": ["Kateřina Nováková", "Ondřej Kuchtík", "Martin Kuchtík", "Ondřej Leštinský"], "photo": "IMG_20220730_195636.jpg" },
+      { "teamName": "FAMILY BUSINESS", "position": 5, "players": ["Vendula Kubíčková", "Daniel Kubíček", "Miroslav Slováček", "Karel Špidla"] , "photo": "IMG_20220730_195555.jpg"},
+      { "teamName": "ANEŽKA", "position": 6, "players": ["Anežka Tesařová", "Jan Tesař", "Miroslav Poštulka"], "photo": "IMG_20220730_195520.jpg" },
+      { "teamName": "ŠŤASTNÉ A VESELÉ", "position": 7, "players": ["Veronika Šubrtová", "Petr Václavek", "Jaroslav Piatkevič"], "photo": "IMG_20220730_195456.jpg" },
+      { "teamName": "UNITED KOKOTS", "position": 8, "players": ["Kristýna Vojkovská", "Tereza Vojkovská", "Tomáš Grézl", "Adam Roller"], "photo": "IMG_20220730_195418.jpg" },
+      { "teamName": "PRINCEZNY Z 2.ŘADY", "position": 9, "players": ["Veronika Vejrostová", "Jan Harapát", "Marek Bednář"], "photo": "IMG_20220730_195352.jpg" },
+      { "teamName": "ADRIK", "position": 10, "players": ["Tereza Trávníčková", "Monika Olečková", "Adrian Skála"], "photo": "IMG_20220730_195324.jpg" },
+      { "teamName": "WEAK ANKLES", "position": 11, "players": ["Karolína Juránková", "Eliška Juránková", "Antonín Harapát", "Matěj Kökörčin"], "photo": "IMG_20220730_172712.jpg" },
+      { "teamName": "3 A 1/2 CHLAPA", "position": 12, "players": ["Ladislava Zvárová", "Martin Vašát", "Viktor Vašát", "Ondřej Kugler"], "photo": "IMG_20220730_195229.jpg" }
     ]
   },
   {
     "year": "2023",
     "title": "20. ročník turnaje se uskutečnil opět v tělocvičně na Tyršáku a soutěžilo se o zbrusu nový pohár pro vítěze!",
     "description": "Jubilejní 20. ročník se uskutečnil opět v hale Tyršova stadionu, která nás ochránila před hrátkami počasí. O zbrusu nový putovní pohár zabojovalo hned 14 týmů a celkem 51 hráček a hráčů! Potěšil nás příjezd kamarádů z Frýdku - Místku, kterých se letos zůčastnilo hned 12! Nejlepším z nich byl po loňském nezdaru ve finále tým Mladých pušek, který ve finále těsně zdolal Kelímky po prodloužení. Novinkou byla soutěž FAMILY SKILLS, ve které závodil rodič spolu s dítětem v basketbalových dovednostech. Pozornost celé haly tak na chvíli patřila těm nejmenším, kteří jinak fandí nám dospělým. Vítězkou první soutěže FAMILY SKILLS se stala Terezka Wiesnerová. Nejúspěšnější hráčkou se stala Martina Müllerová - Zelená z bronzového týmu Bolavé klouby a nejlepším hráčem byl vybrán nadějný Adrian Skála z týmu Libiňáků, kteří byli překvapením turnaje. Celá akce se uskutečnila za podpory TJ Šumperk, oddíl Basketbal, Ecupa s.r.o., MK Fruit s.r.o. a Pivovar Proud. Děkujeme!",
-    "slug": "20-rocni-turnaj-2023",
+    "slug": "rocnik-2023",
     "photo": "IMG_20230729_203615.jpg",
     "awards": [
       { "winner": "Martina Müllerová - Zelená", "category": "nejlepší hráčka turnaje", "photo": "IMG_20230729_203342.jpg" },
@@ -146,7 +838,7 @@
     "year": "2024",
     "title": "21. ročník s 10 tými a po delší době pod otevřeným nebem",
     "description": "21. ročník turnaje se uskutečnil na venkovním hřišti Tyršova stadionu, které v předchozích letech prošli rekonstrukcí. Počasí nám přálo, a tak jsme konečně mohli vyzkoušet nový povrch. Souboje probíhaly ve dvou skupinách po 5 týmech, kde se každý utkal s každým. O celkové umístění se pak hrálo do kříže mezi skupinami. \n Celkovými vítězi se stali Old stars, kteří ve finále porazili vítěze předchozího ročníku Mladý pušky (v lehce pozměněné sestavě). Doplňková soutěž FAMILY SKILLS pro naše nejmenší se těšila velkému zájmu a na hřišti se tak objevili i bývalí účastníci Street Cupu, kteří už aktivně nehrají, se svými ratolestmi. Bylo krásné vidět nasazení a radost v očích nastupující generace, i zkušenosti a dosud nezapomenuté dovednosti jejich rodičů. \n Celý turnaj se uskutečnil za podpory TJ Šumperk, oddíl Basketbal, MK Fruit s.r.o. a NaLok. Děkujeme!",
-    "slug": "mezinarodni-ucast-2024",
+    "slug": "rocnik-2024",
     "photo": "IMG_20240727_191950.jpg",
     "awards": [
       { "winner": "Zuzana Poštulková", "category": "nejlepší hráčka turnaje", "photo": "IMG_20240727_191533.jpg" },
@@ -166,45 +858,6 @@
       { "teamName": "KRTEČCI", "position": 9, "players": ["Katarína Kahánková", "Zdeněk Večerka", "Patrik Večerka", "Michal Enter", "Jaroslav Piatkevič"], "photo": "IMG_20240727_190536.jpg" },
       { "teamName": "ZEDNÍCI", "position": 10, "players": ["Lucie Janíčková", "Marian Skála", "Adam Waiser", "Jan Debre"] }
     ]
-  },
-  {
-    "year": "2025",
-    "title": "Jubilejní ročník",
-    "description": "Očekáváme rekordní účast více než 100 týmů z celé střední Evropy. Přidáváme nové soutěže a doprovodný program.",
-    "slug": "jubilejni-rocnik-2025",
-    "awards": [
-      {
-        "winner": "TBD",
-        "category": "MVP muž"
-      },
-      {
-        "winner": "TBD",
-        "category": "MVP žena"
-      },
-      {
-        "winner": "TBD",
-        "category": "Vítěz shoot-out"
-      },
-      {
-        "winner": "TBD",
-        "category": "Vítěz trestných hodů"
-      },
-      {
-        "winner": "TBD",
-        "category": "Vítěz doplňkových soutěží"
-      }
-    ],
-    "results": [
-      {"teamName": "TBD", "position": 1},
-      {"teamName": "TBD", "position": 2},
-      {"teamName": "TBD", "position": 3},
-      {"teamName": "TBD", "position": 4},
-      {"teamName": "TBD", "position": 5},
-      {"teamName": "TBD", "position": 6},
-      {"teamName": "TBD", "position": 7},
-      {"teamName": "TBD", "position": 8},
-      {"teamName": "TBD", "position": 9},
-      {"teamName": "TBD", "position": 10}
-    ]
   }
+  
 ] 

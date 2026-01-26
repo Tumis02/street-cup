@@ -4,7 +4,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import historyData from '../data/history.json';
 import Layout from '@/components/Layout';
-import heroImage from '../public/foto_street_2024.jpg';
 
 const HistoryPage: React.FC = () => {
   return (
@@ -27,7 +26,7 @@ const HistoryPage: React.FC = () => {
           
           {/* Historie události */}
           <div className="space-y-12">
-            {historyData.map((event, index) => (
+            {historyData.sort((a, b) => parseInt(b.year) - parseInt(a.year)).map((event, index) => (
               <div 
                 key={event.year} 
                 className={`relative flex flex-col md:flex-row items-center ${
@@ -51,12 +50,14 @@ const HistoryPage: React.FC = () => {
                 {/* Obsah - fotografie */}
                 <div className="md:w-1/2 md:pl-8 md:pr-8">
                   <div className="bg-gray-50 p-6 rounded-lg shadow-md flex flex-col items-center">
-                    <Image 
-                      src={heroImage}
+                   {event.photo && <Image 
+                      src={`/${event.year}/${event.photo}`}
+                      width={400}
+                      height={200}
                       alt={`Fotografie z ročníku ${event.year}`}
                       className="rounded-md mb-4"
                       style={{objectFit: 'cover', width: '100%', height: '200px', maxWidth: 400}}
-                    />
+                    />}
                     <div className="text-center">
                       <Link href={`/rocnik/${event.year}`} className="hover:text-primary">
                         <h3 className="text-xl font-bold mb-2">{event.title}</h3>

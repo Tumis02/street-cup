@@ -9,18 +9,23 @@ import RegistrationSection from '@/components/RegistrationSection'
 import ContactSection from '@/components/ContactSection'
 import SponsorsSection from '@/components/SponsorsSection'
 import Footer from '@/components/Footer'
+import historyData from '../data/history.json'
 
 export default function Home() {
+  // Získání nejnovějšího ročníku pro galerii
+  const latestYear = [...historyData]
+    .sort((a, b) => parseInt(b.year) - parseInt(a.year))[0];
+
   return (
     <div className="min-h-screen flex flex-col">
         <HeroSection />
         <AboutSection />
         <RulesSection />
         <HistorySection />
-        <GallerySection />
+        {latestYear && <GallerySection yearData={latestYear} />}
         <RegistrationSection />
         <SponsorsSection />
         <ContactSection />
     </div>
   )
-} 
+}
