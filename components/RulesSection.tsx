@@ -14,47 +14,55 @@ const RulesSection: React.FC = () => {
             <h3 className="text-2xl font-bold mb-6 text-primary">Základní pravidla</h3>
             
             <div className="space-y-6">
-              <div>
-                <h4 className="text-xl font-bold mb-2">1. Složení týmů</h4>
-                <p>Každý tým se skládá ze 3-4 hráčů. Na hřišti hrají vždy 3 hráči z každého týmu. Tým musí nastoupit minimálně se 3 hráči, jinak bude diskvalifikován.</p>
-              </div>
+              <ol className="list-decimal list-inside">
+                <li>Hraje se na jeden koš. Družstvo se skládá max. ze 4 hráčů.</li>
+                <li>Rozpis utkání je na nástěnce.</li>
+                <li><span className="font-bold"> Hrací doba je 10 min hrubého času, ale na time-outy, zapadnuté míče a na TH čas stojí.</span></li>
+                <li><span className="font-bold">Hraje se oficiálním míčem FIBA 3x3</span> (žluto-fialový, velikost 6).</li>
+                <li><span className="font-bold">První držení míče </span>se rozhoduje podle hodu mincí. Po vyhraném losování mincí si družstvo vybere první držení míče na začátku utkání nebo prodloužení.</li>
+                <li><span className="font-bold">Každý koš dosažený uvnitř oblouku má hodnotu 1 bodu, koš dosažený za obloukem má hodnotu 2 bodů</span> – rozhodčí určuje platnost dosaženého koše, hlásí jeho hodnotu a skóre.</li>
+                <li><span className="font-bold">Oddechový čas</span> - Každé družstvo má k dispozici jeden na utkání v délce 30 sekund, který si vyžádá hráč při mrtvém míči.</li>
+                <li><span className="font-bold">Prodloužení</span> není limitováno časem - vyhraje družstvo, které v prodloužení první dosáhne dvou bodů.</li>
+                <li><span className="font-bold">Čas na střelbu</span> - družstvo má obvykle limit 12 sekund, ale jelikož se nebude stíhat měřit čas na střelbu, tak pokud bude družstvo útok zdržovat, rozhodčí varuje družstvo, že zdržuje a odpočítává posledních pět sekund.</li>
+                <li><span className="font-bold">Trestné hody: </span>
+                  <ul className="list-disc list-inside">
+                    <li>Jeden trestný hod za faul při střelbě uvnitř oblouku, dva trestné hody za faul při střelbě za obloukem. </li>
+                    <li>Jeden trestný hod po faulu při úspěšném koši ze hry. </li>
+                    <li>Technická chyba jeden trestný hod. </li>
+                    <li>První nesportovní chyba dva trestné hody bez držení míče, druhá dva trestné hody a držení míče.</li>
+                  </ul>
+                </li>
+                <li><span className="font-bold">Limity chyb družstva a hráčů:</span> 
+                  <ul className="list-disc list-inside">
+                    <li>Družstvo má limit 6 chyb hráčů na hřišti (hlídá zapisovatel).</li>
+                    <li>Další 7., 8., 9. se trestá 2 TH. </li>
+                    <li>10. a každá další chyba hráče na hřišti se trestá 2 TH + držení míče. </li>
+                    <li>Nesportovní a diskvalifikační chyba se počítá jako 2 chyby družstva. </li>
+                  </ul>
+                </li>
+                <li><span className="font-bold">Držení míče po úspěšném koši:</span> Družstvo, které dostane koš, pokud získá držení míče v oblouku pod košem, nesmí v něm být bráněno.</li>
+                <li>
+                  <span className="font-bold">Držení míče a možnost dát koš:</span>
+                  <ul className="list-disc list-inside">
+                    <li>Při mrtvém míči (rozhodčí zapíská), získá družstvo držení míče po výměně míče za obloukem.</li>
+                    <li>Při úspěšném doskoku, nebo získání míče obranou, musí být míč vyvezen za oblouk.</li>
+                    <li>Při situaci rozskoku získá držení míče bránící družstvo, po výměně míče za obloukem.</li>
+                  </ul>
+                </li>
+                <li><span className="font-bold">Střídání:</span> Střídání je povoleno kterémukoliv družstvu, když je míč mrtvý, ale před získání kontroly míče. Náhradník může vstoupit do hřiště, za koncovou čarou, až po doteku se střídajícím hráčem. Střídání nevyžaduje žádnou akci rozhodčích na hřišti</li>
+                <li><span className="font-bold">Poznámky:</span>
+                  <ul className="list-disc list-inside">
+                    <li>Hráč je za obloukem, když vykročí za oblouk a nedotýká se hřiště uvnitř oblouku, ani čáry oblouku.</li>
+                    <li>Oficiální pravidla FIBA platí pro všechny situace, které nejsou výše uvedeny.</li>
+                  </ul>
+                </li>
+                <li><span className="font-bold">Po skončení utkání:</span> Rozhodčí/zapisovatel/časoměr jdou zapsat výsledek utkání do rozpisu utkání a tabulky ve skupině. Zástupci týmů, které dohrály, si střihnou o to, který tým bude dělat rozhodčí, zapisovatele a časomíru v následujícím utkání. </li>
+                <li><span className="font-bold">Rozhodčí nebude sedět.</span> Zapisovatel a časomíra mohou. Časoměřič zároveň musí otáčet skóre na tabuli.</li>
+                <li><span className="font-bold">Každý hráč startuje v turnaji na vlastní nebezpečí!</span></li>
+              </ol>
               
-              <div>
-                <h4 className="text-xl font-bold mb-2">2. Hrací čas</h4>
-                <p>Zápasy se hrají na 15 minut čistého času nebo do dosažení 21 bodů jedním z týmů. V případě remízy se hraje prodloužení do prvního koše.</p>
-              </div>
               
-              <div>
-                <h4 className="text-xl font-bold mb-2">3. Bodování</h4>
-                <p>Koš z pole má hodnotu 1 bodu, koš zpoza trojkové čáry má hodnotu 2 bodů. Každý tým musí posunout míč za trojkovou čáru po každém získání míče (po koši soupeře, doskoku nebo ztrátě soupeře).</p>
               </div>
-              
-              <div>
-                <h4 className="text-xl font-bold mb-2">4. Fauly</h4>
-                <p>Fauly jsou hlášeny hráči. V případě sporu rozhoduje rozhodčí. Po faulu při střelbě následuje 1 trestný hod (za 1 bod). Po 7 faulech týmu v zápase znamená každý další faul 1 trestný hod + držení míče.</p>
-              </div>
-              
-              <div>
-                <h4 className="text-xl font-bold mb-2">5. Střídání</h4>
-                <p>Střídání je povoleno pouze při přerušení hry nebo po vstřeleném koši. Tým musí oznámit střídání rozhodčímu.</p>
-              </div>
-              
-              <div>
-                <h4 className="text-xl font-bold mb-2">6. Systém turnaje</h4>
-                <p>Turnaj se hraje systémem skupin, následují vyřazovací zápasy. Každý tým odehraje minimálně 3 zápasy ve skupině. Postupují první dva týmy z každé skupiny. V případě rovnosti bodů rozhoduje: 1) vzájemný zápas, 2) skóre, 3) počet vstřelených bodů.</p>
-              </div>
-              
-              <div>
-                <h4 className="text-xl font-bold mb-2">7. Fair play</h4>
-                <p>Očekáváme od všech účastníků dodržování principů fair play. Organizátoři si vyhrazují právo diskvalifikovat tým za nesportovní chování.</p>
-              </div>
-            </div>
-            
-            <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
-              <p className="font-medium">
-                Úplná pravidla turnaje budou zaslána všem registrovaným týmům a budou k dispozici na místě konání. Organizátoři si vyhrazují právo na změnu pravidel.
-              </p>
-            </div>
           </div>
         </div>
       </div>
