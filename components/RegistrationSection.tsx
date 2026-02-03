@@ -92,7 +92,7 @@ const RegistrationSection: React.FC = () => {
       .join('');
 
     return `
-      <h2>Nová registrace týmu do turnaje Street Cup 2025</h2>
+      <h2>Nová registrace týmu do turnaje Street Cup 2026</h2>
       
       <h3>Informace o týmu</h3>
       <table>
@@ -236,14 +236,14 @@ const RegistrationSection: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="mb-4">Přihláška do turnaje</h2>
           <div className="h-1 w-20 bg-primary mx-auto"></div>
-          <p className="mt-4 text-lg">Zaregistrujte svůj tým do Street Cup 2025</p>
+          <p className="mt-4 text-lg">Zaregistrujte svůj tým do Street Cup 2026</p>
         </div>
         
         <div className="max-w-3xl mx-auto">
           {submitSuccess ? (
             <div className="bg-green-50 border border-green-200 text-green-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-2">Přihláška byla úspěšně odeslána!</h3>
-              <p>Děkujeme za váš zájem o účast v turnaji Street Cup 2025. Na zadaný e-mail jsme vám poslali potvrzení a další informace.</p>
+              <p>Děkujeme za váš zájem o účast v turnaji Street Cup 2026. Na zadaný e-mail jsme vám poslali potvrzení a další informace.</p>
               <button 
                 className="btn btn-primary mt-4"
                 onClick={() => setSubmitSuccess(false)}

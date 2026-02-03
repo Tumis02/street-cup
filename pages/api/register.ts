@@ -109,7 +109,7 @@ export default async function handler(
     };
 
     // Připravíme tělo e-mailu pro tým pomocí naší šablony
-    const teamEmailSubject = 'Potvrzení registrace do turnaje Street Cup 2025';
+    const teamEmailSubject = 'Potvrzení registrace do turnaje Street Cup 2026';
     const teamEmailBody = formatRegistrationEmail(teamInfo);
 
     // Odeslání e-mailů pomocí Resend

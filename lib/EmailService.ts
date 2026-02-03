@@ -107,7 +107,7 @@ export const formatRegistrationEmail = (team: TeamInfo): string => {
       
       <p style="margin-top: 30px; font-size: 12px; color: #777;">
         S pozdravem,<br>
-        Organizační tým Street Cup 2025
+        Organizační tým Street Cup 2026
       </p>
     </div>
   `;

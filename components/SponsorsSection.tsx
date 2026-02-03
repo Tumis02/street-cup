@@ -11,7 +11,7 @@ const SponsorsSection: React.FC = () => {
           <h2 className="mb-4">Naši sponzoři</h2>
           <div className="h-1 w-20 bg-primary mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600">
-            Děkujeme všem partnerům za podporu při organizaci turnaje Street Cup 2025
+            Děkujeme všem partnerům za podporu při organizaci turnaje Street Cup 2026
           </p>
         </div>
         

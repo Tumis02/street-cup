@@ -9,7 +9,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Street Cup 2025 | Streetballový turnaj</title>
+        <title>Street Cup 2026 | Streetballový turnaj</title>
         <meta name="description" content="Největší streetballový turnaj v České republice" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

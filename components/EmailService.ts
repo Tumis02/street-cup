@@ -83,12 +83,12 @@ export const sendRegistrationEmail = async (
     await sendEmail({
       to: teamEmail,
       from: 'info@streetcup2025.cz',
-      subject: 'Potvrzení registrace do turnaje Street Cup 2025',
+      subject: 'Potvrzení registrace do turnaje Street Cup 2026',
       body: `
         <h2>Děkujeme za registraci!</h2>
-        <p>Váš tým <strong>${teamName}</strong> byl úspěšně zaregistrován do turnaje Street Cup 2025.</p>
+        <p>Váš tým <strong>${teamName}</strong> byl úspěšně zaregistrován do turnaje Street Cup 2026.</p>
         <p>Brzy vás budeme kontaktovat s dalšími informacemi o turnaji a platbě startovného.</p>
-        <p>S pozdravem,<br>Organizační tým Street Cup 2025</p>
+        <p>S pozdravem,<br>Organizační tým Street Cup 2026</p>
       `
     });
   } catch (error) {
