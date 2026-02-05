@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Street Cup 2026 | Basketbalový turnaj</title>
+        <title>Street Cup 2026 | Basketbalový turnaj </title>
         <meta name="description" content="Oficiální stránky basketbalového turnaje Street Cup 2026" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
