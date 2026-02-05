@@ -9,7 +9,7 @@ const ContactSection: React.FC = () => {
           <h2 className="mb-4">Kontakty</h2>
           <div className="h-1 w-20 bg-primary mx-auto"></div>
           <p className="mt-6 text-gray-300 max-w-2xl mx-auto">
-            Máte dotaz ohledně turnaje? Neváhejte nás kontaktovat.
+           Chceš se stát součástí komunity kolem našeho turnaje? Ať už jako hráč/ka, tým nebo partner, ozvi se nám. Společně vytváříme zážitky, které mají smysl.
           </p>
         </div>
         
