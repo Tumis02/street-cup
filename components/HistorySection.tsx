@@ -10,7 +10,7 @@ const HistorySection: React.FC = () => {
     .slice(0, 4);
 
   return (
-    <section id="history" className="section bg-white">
+    <section id="history" className="section bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="mb-4">Historie turnaje</h2>

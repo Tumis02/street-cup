@@ -20,10 +20,11 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
         <HeroSection />
         <AboutSection />
-        <RulesSection />
         <HistorySection />
         {latestYear && <GallerySection yearData={latestYear} />}
         <RegistrationSection />
+        <RulesSection />
+
         <SponsorsSection />
         <ContactSection />
     </div>

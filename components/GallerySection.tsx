@@ -105,7 +105,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({ yearData }) => {
   }
 
   return (
-    <section id="gallery" className="section bg-gray-50">
+    <section id="gallery" className="section bg-white">
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="mb-4">Fotogalerie</h2>
