@@ -12,19 +12,17 @@ const AboutSection: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="mb-4 text-lg">
-              Street Cup 2025 je prestižní streetballový turnaj, který se bude konat v létě 2025 
-              v několika městech po celé České republice. Turnaj je určen pro všechny nadšence 
-              basketbalu bez ohledu na věk či zkušenosti.
+              Street Cup je víc než turnaj, je to živá tradice, která propojuje hráče a hráčky ve smíšených trojicích, napříč generacemi, týmy i přátelstvími.
             </p>
             <p className="mb-4 text-lg">
-              Turnaj nabízí nejen kvalitní sportovní zážitek, ale také bohatý doprovodný program 
-              včetně soutěží ve smečování, střelbě trojek a dovednostních soutěží pro všechny 
-              věkové kategorie.
+              Od roku 2000 píšeme příběh setkávání pod bezednými koši, kde nechybí kamarádství, soutěživost a férovost. Je to tradiční akce, která vždy v půlce prázdnin přiláká do Šumperka spoustu bývalých i současných hráčů, fanoušky i sportovní komunitu. 		
             </p>
             <p className="mb-4 text-lg">
-              Registrovat se může každý tým se 3-4 hráči. Systém turnaje zaručuje, že si každý tým 
-              zahraje minimálně 3 zápasy.
+             Základní myšlenkou je spojit současné i bývalé hráče, jejich kamarády, děti, rodiny i fanoušky a vytvořit z turnaje mezigenerační setkání plné sportu, radosti a pozitivní energie.		
             </p>
+             <p className="mb-4 text-lg">
+              Každý ročník přináší napínavé zápasy, férovou hru na hranici možností každého hráče či hráčky, radost ze společně stráveného času a nezaměnitelnou atmosféru, která dělá ze Street Cupu víc než jen sportovní akci - dělá z něj událost, na kterou se nezapomíná!		
+             </p>
 
            {/*  <div className="mt-8">
               <h3 className="text-2xl font-bold mb-4">Klíčové informace</h3>
