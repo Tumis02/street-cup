@@ -22,8 +22,8 @@ const ContactSection: React.FC = () => {
               <div>
                 <h4 className="font-bold mb-1 text-xl">E-mail</h4>
                 <p className="text-lg">
-                  <a href="mailto:info@streetcup2025.cz" className="hover:text-primary transition-colors">
-                    info@streetcup2025.cz
+                  <a href="mailto:novakova.katka@seznam.cz" className="hover:text-primary transition-colors">
+                    novakova.katka@seznam.cz
                   </a>
                 </p>
               </div>
@@ -36,8 +36,8 @@ const ContactSection: React.FC = () => {
               <div>
                 <h4 className="font-bold mb-1 text-xl">Telefon</h4>
                 <p className="text-lg">
-                  <a href="tel:+420123456789" className="hover:text-primary transition-colors">
-                    +420 123 456 789
+                  <a href="tel:+420728743805" className="hover:text-primary transition-colors">
+                    +420 728 743 805
                   </a>
                 </p>
               </div>

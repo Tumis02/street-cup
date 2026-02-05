@@ -25,7 +25,7 @@ export default function Home() {
         <RegistrationSection />
         <RulesSection />
 
-        <SponsorsSection />
+        {/* <SponsorsSection /> */}
         <ContactSection />
     </div>
   )
