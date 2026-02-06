@@ -14,10 +14,10 @@ const Header: React.FC = () => {
 
   const menuItems = [
     { name: 'O turnaji', href: '/#about', id: 'about' },
-    { name: 'Pravidla', href: '/#rules', id: 'rules' },
     { name: 'Historie', href: '/#history', id: 'history' },
     { name: 'Fotogalerie', href: '/#gallery', id: 'gallery' },
     { name: 'Přihláška', href: '/#registration', id: 'registration' },
+    { name: 'Pravidla', href: '/#rules', id: 'rules' },
     { name: 'Kontakty', href: '/#contact', id: 'contact' },
   ];
 
