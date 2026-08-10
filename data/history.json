@@ -885,6 +885,33 @@
       { "teamName": "SNĚHURKA A TŘÍ TRPASLÍCI", "position": 11, "players": ["Veronika Šubrtová", "Luboš Halfar", "Petr Lehár", "Štěpán Vizina"], "photo": "IMG_20250726_191915.jpg" },
       { "teamName": "SKAUTÍCI", "position": 12, "players": ["Soňa Krestová", "Ondřej Kuchtík", "Tomáš Křikal", "Martin Kuchtík"] , "photo": "IMG_20250726_184323.jpg"}
     ]
+  },
+  {
+    "year": "2026",
+    "title": "23. ročník měl parádní atmosféru! Hrálo se venku, přišlo hodně diváků, bojovalo se za všech sil. Byla to krásná oslava basketu formou setkání všech, kteří tuto hru milují.",
+    "description": "",
+    "slug": "rocnik-2026",
+    "photo": "IMG_4234.HEIC",
+    "awards": [
+      { "winner": "Katarína Kahánková", "category": "Nejlepší hráčka turnaje", "photo": "IMG_4228.HEIC" },
+      { "winner": "Filip Tůma", "category": "Nejlepší hráč turnaje", "photo": "IMG_4228.HEIC" },
+      { "winner": "Mikuláš Gonda", "category": "FAMILY SKILLS", "photo": "IMG_20260801_182445.jpg" },
+      { "winner": "Adrian Skála", "category": "Shoot-out", "photo": "IMG_4225.HEIC" }
+    ],
+    "results": [
+      { "teamName": "BBC", "position": 1, "players": ["Dagmar Polášková", "Tereza Čechová", "Filip Tůma", "Patrik Sedláček"], "photo": "IMG_4218.HEIC" },
+      { "teamName": "MALÝ PORCE, ALE MRDY", "position": 2, "players": ["Melánie Skálová", "Adrian Skála", "Marián Skála"], "photo": "IMG_4210.HEIC" },
+      { "teamName": "POZDNÍ SBĚR", "position": 3, "players": ["Iva Dudešková", "Zdeněk Wiesner", "Jaroslav Piatkevič", "Tomáš Kugler", "Václav Dudeška"], "photo": "IMG_4204.HEIC" },
+      { "teamName": "OLD STARS", "position": 4, "players": ["Eva Klimková", "Petr Klimek", "Jan Skoumal", "Jiří Gonda"], "photo": "IMG_4196.HEIC" },
+      { "teamName": "3+1", "position": 5, "players": ["Barbora Žiaková", "Ondřej Kuchtík", "Miroslav Kubíček", "Ondřej Hanzlík"], "photo": "IMG_4191.HEIC" },
+      { "teamName": "PATRIK JE", "position": 6, "players": ["Katarína Kahánková", "Matěj Šupina", "Daniel Schiel", "Lubomír Kahánek"], "photo": "IMG_4185.HEIC" },
+      { "teamName": "DOPIJEM A JDEM", "position": 7, "players": ["Kateřina Nováková", "Karel Špidla", "Michal Hájek", "Jan Roško"], "photo": "IMG_4180.HEIC" },
+      { "teamName": "SVIŽNÍ ŠNECI", "position": 8, "players": ["Adéla Roučová", "Matěj Kökörčin", "Marek Bednář", "František Harapát"], "photo": "IMG_4172.HEIC" },
+      { "teamName": "UNITED KOKOTS", "position": 9, "players": ["Adriana Směšná", "Adam Roller", "Tomáš Grézl", "Vít Veselovský"], "photo": "IMG_4169.HEIC" },
+      { "teamName": "DYCKY BASKET", "position": 10, "players": ["Zuzana Pavlů", "Veronika Šubrtová", "Karel Jílek", "Richard Růžička"], "photo": "IMG_4205.HEIC" },
+      { "teamName": "KONINY", "position": 11, "players": ["Míša Körnerová", "Lucie Janíčková", "Yevhen Koldichev", "Arsen Pilianskyi"], "photo": "IMG_4159.HEIC" },
+      { "teamName": "ŠUP HO TAM", "position": 12, "players": ["Andrea Hopewell", "Luboš Halfar", "Petr Lehár", "Jiří Bernát"], "photo": "IMG_4155.jpg" }
+    ]
   }
-  
-] 
+
+]
