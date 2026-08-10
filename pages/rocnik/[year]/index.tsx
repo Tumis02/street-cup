@@ -16,6 +16,7 @@ interface YearData {
   description: string;
   slug: string;
   photo?: string;
+  photosUrl?: string;
   awards: {
     winner: string;
     category: string;
@@ -144,15 +145,17 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
             {yearData.awards && yearData.awards.map((award, index) => (
               <p key={index} className="mb-2">
                 <strong>{award.category}:</strong>{' '}
-                <span 
-                  className={`${award.photo ? 'cursor-pointer hover:text-primary-dark' : ''}`}
+                <span
+                  className={`${award.photo ? 'text-primary underline decoration-dashed decoration-2 underline-offset-2 cursor-pointer hover:text-primary-dark' : ''}`}
                   onClick={() => handleTeamClick(award.photo, `${award.winner} - ${award.category}`)}
                 >
                   {award.winner}
                 </span>
               </p>
             ))}
-           
+
+          
+
             <h3 className="text-xl font-bold mb-3 mt-4">Celkové pořadí týmů</h3>
             <ol className="list-decimal list-inside text-gray-700 text-sm space-y-1" start={1}>
               {yearData.results
@@ -163,8 +166,8 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
                     {idx === 0 && <span>🥇 </span>}
                     {idx === 1 && <span>🥈 </span>}
                     {idx === 2 && <span>🥉 </span>}
-                    <span 
-                      className={`${idx < 3 ? 'font-bold text-primary' : 'font-bold'} ${result.photo ? 'cursor-pointer hover:text-primary-dark' : ''}`}
+                    <span
+                      className={`${idx < 3 ? 'font-bold text-primary' : 'font-bold'} ${result.photo ? 'underline decoration-dashed decoration-2 underline-offset-2 cursor-pointer hover:text-primary-dark' : ''}`}
                       onClick={() => handleTeamClick(result.photo, result.teamName)}
                     >
                       {result.teamName}
@@ -177,6 +180,16 @@ const YearPage: React.FC<YearPageProps> = ({ yearData, prevYear, nextYear, galle
                 
                 )}
             </ol>
+              {yearData.photosUrl && (
+              <a
+                href={yearData.photosUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary self-start mt-2 inline-flex items-center gap-2"
+              >
+                📷 Všechny fotky z turnaje
+              </a>
+            )}
           </div>
         </div>
 

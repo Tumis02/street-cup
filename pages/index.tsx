@@ -22,7 +22,7 @@ export default function Home() {
         <AboutSection />
         <HistorySection />
         {latestYear && <GallerySection yearData={latestYear} />}
-        <RegistrationSection />
+        {/* <RegistrationSection /> */}
         <RulesSection />
 
         {/* <SponsorsSection /> */}
